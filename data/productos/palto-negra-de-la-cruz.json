@@ -1,0 +1,14 @@
+{
+  "nombre": "Palto Negra de la Cruz",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "La variedad tradicional chilena, reconocida por su sabor. Plantas vigorosas y sanas de vivero autorizado SAG. El stock suele agotarse rápido.",
+  "luz": "Pleno sol, protegido de heladas",
+  "riego": "Profundo y espaciado",
+  "etiqueta": "Autorizado SAG",
+  "portada": "img/productos/palto-1.jpg",
+  "fotos": [],
+  "destacado": false,
+  "orden": 7,
+  "visible": true
+}

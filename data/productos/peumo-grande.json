@@ -1,0 +1,14 @@
+{
+  "nombre": "Peumo grande",
+  "categoria": "Árboles y nativos",
+  "precio": 8500,
+  "descripcion": "Árbol nativo de Chile, siempreverde y aromático. Resistente y de bajo mantenimiento: perfecto para sombra y para recuperar el bosque nativo.",
+  "luz": "Sol o semisombra",
+  "riego": "Moderado; una vez establecido es resistente",
+  "etiqueta": "Nativo",
+  "portada": "img/productos/peumo-1.jpg",
+  "fotos": [],
+  "destacado": false,
+  "orden": 10,
+  "visible": true
+}

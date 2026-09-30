@@ -1,0 +1,14 @@
+{
+  "nombre": "Arce Japonés",
+  "categoria": "Árboles y nativos",
+  "precio": 30000,
+  "descripcion": "Árbol ornamental de hojas finas y recortadas que cambian de color en otoño. Pieza protagonista para jardines y patios.",
+  "luz": "Semisombra",
+  "riego": "Regular, sin encharcar",
+  "etiqueta": "",
+  "portada": "img/productos/arce-japones-1.jpg",
+  "fotos": [],
+  "destacado": false,
+  "orden": 9,
+  "visible": true
+}

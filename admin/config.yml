@@ -1,0 +1,271 @@
+# Configuración del panel /admin (Sveltia CMS)
+# Cada cambio que se guarda aquí crea un commit en GitHub.
+# Vercel arma la web (scripts/build.mjs) y la publica en ~30 segundos.
+
+backend:
+  name: github
+  repo: %%GITHUB_REPO%%
+  branch: main
+  commit_messages:
+    create: "Web: crea {{collection}} «{{slug}}»"
+    update: "Web: actualiza {{collection}} «{{slug}}»"
+    delete: "Web: elimina {{collection}} «{{slug}}»"
+    uploadMedia: "Web: sube foto {{path}}"
+    deleteMedia: "Web: elimina foto {{path}}"
+
+site_url: %%SITE_URL%%
+display_url: %%SITE_URL%%
+logo_url: ../img/favicon.svg
+
+media_folder: img/productos
+public_folder: /img/productos
+
+# Nombres de archivo sin tildes ni ñ (ej: "Jazmín del Cabo" -> jazmin-del-cabo.json)
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+# Las fotos del celular se achican y convierten a WebP al subirlas, para que la web cargue rápido
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1200
+          height: 1200
+
+collections:
+  # ---------- PLANTAS ----------
+  - name: productos
+    label: Plantas
+    label_singular: planta
+    description: "Las plantas de «Elige tu planta». La destacada sale primero y en grande. Se ven mejor 10 o menos: para todo el resto está el catálogo online."
+    icon: potted_plant
+    folder: data/productos
+    format: json
+    create: true
+    delete: true
+    identifier_field: nombre
+    slug: "{{nombre}}"
+    summary: "{{nombre}} · {{categoria}}"
+    sortable_fields:
+      fields: [orden, nombre, precio]
+      default:
+        field: orden
+        direction: ascending
+    fields:
+      - name: nombre
+        label: Nombre de la planta
+        hint: "Como la conoce la gente. Ej: Limonero Eureka Frost"
+        widget: string
+      - name: categoria
+        label: Tipo
+        hint: "Se usa para los filtros de la web."
+        widget: select
+        options: ["Interior", "Flores y exterior", "Frutales", "Árboles y nativos", "Hierbas", "Rosas", "Maceteros e insumos"]
+        default: Interior
+      - name: precio
+        label: Precio (en pesos)
+        hint: "Solo números, sin puntos ni signo $. Ej: 8000. Déjalo vacío para que diga «Consultar precio»."
+        widget: number
+        value_type: int
+        min: 0
+        required: false
+      - name: descripcion
+        label: Descripción
+        hint: "Una o dos frases: qué es y por qué llevarla. Ej: Variedad de excelente rendimiento, con frutos de gran calidad."
+        widget: text
+        required: false
+      - name: luz
+        label: "Cuidados: luz"
+        hint: "Ej: Pleno sol / Luz indirecta, sin sol directo. Déjalo vacío si no aplica."
+        widget: string
+        required: false
+      - name: riego
+        label: "Cuidados: riego"
+        hint: "Ej: Dejar secar el sustrato entre riegos"
+        widget: string
+        required: false
+      - name: etiqueta
+        label: Cinta sobre la foto
+        hint: "Opcional y corta. Ej: Pocas unidades, Recién llegada, Nativo, Precio por mayor"
+        widget: string
+        required: false
+      - name: portada
+        label: Foto principal
+        hint: "La que se ve en la tarjeta. Mejor vertical, con la planta al centro y buena luz."
+        widget: image
+      - name: fotos
+        label: Más fotos
+        hint: "Se ven al tocar la planta. Hasta 4 se ve bien."
+        widget: list
+        required: false
+        field: { name: foto, label: Foto, widget: image }
+      - name: destacado
+        label: ¿Destacada?
+        hint: "La destacada aparece primero y en grande. Deja solo una."
+        widget: boolean
+        default: false
+        required: false
+      - name: orden
+        label: Orden
+        hint: "Número más bajo = aparece antes. Ej: 1, 2, 3…"
+        widget: number
+        value_type: int
+        default: 20
+        required: false
+      - name: visible
+        label: ¿Mostrar en la web?
+        hint: "Apágalo cuando se agote, sin borrarla."
+        widget: boolean
+        default: true
+        required: false
+
+  # ---------- DATOS DEL VIVERO ----------
+  - name: ajustes
+    label: Datos del vivero
+    icon: storefront
+    files:
+      - name: ajustes
+        label: Contacto, dirección, horario y portada
+        file: data/ajustes.json
+        fields:
+          - name: whatsapp
+            label: WhatsApp
+            hint: "Formato internacional, solo números. Ej: 56944068856. Si lo dejas vacío, se ocultan el formulario y los botones de WhatsApp."
+            widget: string
+            required: false
+            pattern: ["^$|^569\\d{8}$", "Debe partir con 569 y tener 11 números, ej: 56944068856"]
+          - name: mensaje_whatsapp
+            label: Mensaje inicial de WhatsApp
+            hint: "Lo que aparece escrito cuando alguien toca «WhatsApp». Ej: Hola Vive Viveros 🌿 Quiero hacer una consulta."
+            widget: string
+          - name: instagram
+            label: Usuario de Instagram
+            hint: "Sin @. Ej: vive.viveros"
+            widget: string
+            required: false
+          - name: email
+            label: Correo
+            widget: string
+            required: false
+            pattern: ["^$|^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$", "Escribe un correo válido, ej: viveviveros@gmail.com"]
+          - name: catalogo_url
+            label: Link del catálogo online
+            hint: "El link del catálogo (Kyte). Déjalo vacío para ocultar los botones del catálogo."
+            widget: string
+            required: false
+          - name: direccion
+            label: Dirección para Google Maps
+            hint: "Como la busca Google. Ej: Vive Viveros, Salsipuedes s/n, Malloa, O'Higgins. Si la dejas vacía, se oculta el mapa."
+            widget: string
+            required: false
+          - name: direccion_texto
+            label: Dirección (como se lee en la web)
+            hint: "Ej: Salsipuedes s/n, Malloa"
+            widget: string
+            required: false
+          - name: direccion_referencia
+            label: Cómo llegar (referencia)
+            hint: "Ej: Al final del camino pavimentado"
+            widget: string
+            required: false
+          - name: ciudad
+            label: Comuna
+            widget: string
+          - name: region
+            label: Región
+            widget: string
+            required: false
+          - name: zonas
+            label: Comunas del formulario
+            hint: "Las que aparecen en «Tu comuna». Ej: Malloa, Rengo, San Fernando"
+            widget: list
+          - name: horario
+            label: Horario de atención
+            hint: "Un día por fila, de lunes a domingo. Horas en formato 24 h (HH:MM), ej: 10:00. Si cierran a mediodía, usa el segundo tramo. Si todos los días quedan cerrados, se oculta el horario."
+            widget: list
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            summary: "{{fields.dia}}: {{fields.abre}}–{{fields.cierra}} {{fields.abre2}}–{{fields.cierra2}}"
+            fields:
+              - { name: dia, label: Día, widget: string, readonly: true }
+              - { name: cerrado, label: ¿Cerrado todo el día?, widget: boolean, default: false, required: false }
+              - { name: abre, label: Abre, widget: string, required: false, pattern: ["^$|^([01]\\d|2[0-3]):[0-5]\\d$", "Usa HH:MM, ej: 10:00"] }
+              - { name: cierra, label: Cierra, widget: string, required: false, pattern: ["^$|^([01]\\d|2[0-3]):[0-5]\\d$", "Usa HH:MM, ej: 13:00"] }
+              - { name: abre2, label: "Vuelve a abrir (opcional)", widget: string, required: false, pattern: ["^$|^([01]\\d|2[0-3]):[0-5]\\d$", "Usa HH:MM, ej: 14:00"] }
+              - { name: cierra2, label: "Cierra (segundo tramo)", widget: string, required: false, pattern: ["^$|^([01]\\d|2[0-3]):[0-5]\\d$", "Usa HH:MM, ej: 18:30"] }
+          - name: hero_eyebrow
+            label: "Portada: texto de arriba"
+            hint: "Ej: Vivero en Salsipuedes · Malloa"
+            widget: string
+          - name: hero_titulo
+            label: "Portada: título"
+            hint: "Ej: Frutales, ornamentales y"
+            widget: string
+          - name: hero_destacado
+            label: "Portada: palabra en verde (subrayada)"
+            hint: "Ej: nativos"
+            widget: string
+          - name: hero_bajada
+            label: "Portada: texto"
+            widget: text
+          - name: hero_foto
+            label: "Portada: foto"
+            hint: "Vertical, del vivero o de una planta de temporada."
+            widget: image
+          - name: hero_foto_nota
+            label: "Portada: etiqueta de la foto"
+            hint: "Se ve como etiqueta escrita a mano. Ej: Crisantemos maules · de temporada. Vacío = sin etiqueta."
+            widget: string
+            required: false
+          - name: sag
+            label: ¿Mostrar sello «Vivero autorizado SAG»?
+            widget: boolean
+            default: true
+            required: false
+          - name: mayorista
+            label: Texto de precios por mayor
+            hint: "Vacío = no se muestra. Ej: ¿Tienes vivero o florería? Tenemos precios especiales por cantidad."
+            widget: text
+            required: false
+          - name: cifras
+            label: "Cifras del vivero (máximo 4)"
+            hint: "Los números grandes de «En el vivero hay mucho más». Actualízalos cuando cambie el catálogo."
+            widget: list
+            max: 4
+            required: false
+            fields:
+              - { name: numero, label: Número, widget: number, value_type: int }
+              - { name: texto, label: Texto, widget: string, hint: "Ej: frutales" }
+
+      - name: flyer
+        label: Promoción (flyer)
+        file: data/flyer.json
+        media_folder: /img/flyer
+        public_folder: /img/flyer
+        fields:
+          - { name: mostrar, label: ¿Mostrar la promoción?, widget: boolean, default: false, required: false }
+          - { name: popup, label: "¿Abrirla sola al entrar? (una vez por visita)", widget: boolean, default: false, required: false }
+          - { name: imagen, label: Imagen del flyer, widget: image, required: false, hint: "La misma imagen que publicas en Instagram." }
+          - { name: titulo, label: Título, widget: string, required: false, hint: "Ej: Semana del limonero" }
+          - { name: texto, label: Texto, widget: text, required: false, hint: "Ej: Limoneros a $7.000 hasta el domingo." }
+          - { name: mensaje_whatsapp, label: Mensaje de WhatsApp, widget: string, required: false, hint: "Ej: Hola! Quiero la promo de limoneros 🍋" }
+
+      - name: testimonios
+        label: Opiniones de clientes
+        file: data/testimonios.json
+        fields:
+          - name: testimonios
+            label: Opiniones
+            hint: "Copia opiniones reales (WhatsApp, Google, Instagram) con permiso del cliente. La sección aparece cuando hay al menos una."
+            widget: list
+            required: false
+            fields:
+              - { name: texto, label: Opinión, widget: text }
+              - { name: nombre, label: Nombre del cliente, widget: string, hint: "Ej: Carolina P." }
+              - { name: detalle, label: Qué compró y comuna, widget: string, required: false, hint: "Ej: Paltos · Rengo" }

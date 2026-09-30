@@ -1,0 +1,14 @@
+{
+  "nombre": "Lavanda Stoechas",
+  "categoria": "Flores y exterior",
+  "precio": 5500,
+  "descripcion": "Lavanda de flor morada con penachos: llena de aroma el jardín y atrae abejas. Precio especial para comerciantes y mayoristas.",
+  "luz": "Pleno sol",
+  "riego": "Poco; resiste bien la sequía",
+  "etiqueta": "Precio por mayor",
+  "portada": "img/productos/lavanda-1.jpg",
+  "fotos": ["img/productos/lavanda-2.jpg"],
+  "destacado": false,
+  "orden": 5,
+  "visible": true
+}

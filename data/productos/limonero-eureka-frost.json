@@ -1,0 +1,14 @@
+{
+  "nombre": "Limonero Eureka Frost",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "Variedad de excelente rendimiento y producción constante, con frutos de gran calidad. Plantas certificadas de vivero autorizado SAG.",
+  "luz": "Pleno sol",
+  "riego": "Regular en verano",
+  "etiqueta": "Autorizado SAG",
+  "portada": "img/productos/limonero-1.jpg",
+  "fotos": ["img/productos/limonero-2.jpg"],
+  "destacado": false,
+  "orden": 8,
+  "visible": true
+}

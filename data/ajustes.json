@@ -1,0 +1,36 @@
+{
+  "whatsapp": "56944068856",
+  "mensaje_whatsapp": "Hola Vive Viveros 🌿 Quiero hacer una consulta.",
+  "instagram": "vive.viveros",
+  "email": "",
+  "catalogo_url": "https://httpswwwinstagramcomviveviverosigsh.kyte.site/es",
+  "direccion": "Vive Viveros, Salsipuedes s/n, Malloa, O'Higgins",
+  "direccion_texto": "Salsipuedes s/n, Malloa",
+  "direccion_referencia": "Al final del camino pavimentado",
+  "ciudad": "Malloa",
+  "region": "Región de O'Higgins",
+  "zonas": ["Salsipuedes", "Malloa", "Pelequén", "Rengo", "San Fernando", "San Vicente", "Rancagua"],
+  "horario": [
+    { "dia": "Lunes", "cerrado": true, "abre": "", "cierra": "", "abre2": "", "cierra2": "" },
+    { "dia": "Martes", "cerrado": false, "abre": "10:00", "cierra": "13:00", "abre2": "14:00", "cierra2": "18:30" },
+    { "dia": "Miércoles", "cerrado": false, "abre": "10:00", "cierra": "13:00", "abre2": "14:00", "cierra2": "18:30" },
+    { "dia": "Jueves", "cerrado": false, "abre": "10:00", "cierra": "13:00", "abre2": "14:00", "cierra2": "18:30" },
+    { "dia": "Viernes", "cerrado": false, "abre": "10:00", "cierra": "13:00", "abre2": "14:00", "cierra2": "18:30" },
+    { "dia": "Sábado", "cerrado": false, "abre": "10:00", "cierra": "13:00", "abre2": "14:00", "cierra2": "18:30" },
+    { "dia": "Domingo", "cerrado": false, "abre": "10:00", "cierra": "13:00", "abre2": "14:00", "cierra2": "18:30" }
+  ],
+  "hero_eyebrow": "Vivero en Salsipuedes · Malloa",
+  "hero_titulo": "Frutales, ornamentales y",
+  "hero_destacado": "nativos",
+  "hero_bajada": "Plantas sanas de un vivero autorizado por el SAG: para tu casa, tu jardín o tu huerto. Ven por la tuya o resérvala por WhatsApp.",
+  "hero_foto": "img/vivero/crisantemos-2.jpg",
+  "hero_foto_nota": "Crisantemos maules · de temporada",
+  "sag": true,
+  "mayorista": "¿Tienes vivero, florería o negocio? Tenemos precios especiales por cantidad.",
+  "cifras": [
+    { "numero": 97, "texto": "plantas de interior" },
+    { "numero": 42, "texto": "frutales" },
+    { "numero": 21, "texto": "árboles" },
+    { "numero": 58, "texto": "maceteros" }
+  ]
+}

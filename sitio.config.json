@@ -1,0 +1,28 @@
+{
+  "_ayuda": "Datos que define el desarrollador (no se editan en /admin). Lo que cambia el cliente está en data/.",
+  "nombre": "Vive Viveros",
+  "lema": "Frutales, ornamentales y nativos",
+  "rubro": "Vivero",
+  "schema_tipo": "GardenStore",
+  "seo_titulo": "Vive Viveros · Vivero en Salsipuedes, Malloa · Frutales, plantas de interior y árboles nativos",
+  "seo_descripcion": "Vivero autorizado SAG en Salsipuedes, Malloa (Región de O'Higgins): frutales, plantas de interior y exterior, flores de temporada y árboles nativos. Precios por mayor. Reserva por WhatsApp.",
+  "site_url": "https://vive-viveros.vercel.app",
+  "github_repo": "Bemol69/vive.viveros",
+  "google_verificacion": "",
+  "geo": { "lat": "", "lng": "" },
+  "colores": {
+    "tinta": "#1D2A4D",
+    "hoja": "#2D6A4F",
+    "hoja_oscura": "#1F4D39",
+    "brote": "#8DBF5A",
+    "terracota": "#C0643C",
+    "papel": "#F5F0E4",
+    "crema": "#EBE3D0",
+    "linea": "#D7CDB6"
+  },
+  "fuentes": {
+    "titulos": "Fraunces",
+    "texto": "Figtree",
+    "mano": "Caveat"
+  }
+}

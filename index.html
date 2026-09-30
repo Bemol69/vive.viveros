@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>%%SEO_TITULO%%</title>
+  <meta name="description" content="%%SEO_DESCRIPCION%%">
+  <meta name="theme-color" content="%%COLOR_PAPEL%%">
+  <!-- SEO:HEAD (canonical, Open Graph y datos estructurados: los escribe scripts/build.mjs) -->
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="%%FUENTES_URL%%">
+  <link rel="preload" as="image" href="%%HERO_FOTO_MOVIL%%" media="(max-width: 760px)">
+  <link rel="preload" as="image" href="%%HERO_FOTO%%" media="(min-width: 761px)">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="saltar" href="#plantas">Saltar a las plantas</a>
+
+  <!-- ===== Barra superior ===== -->
+  <header class="nav" data-nav>
+    <div class="nav__in">
+      <a class="nav__logo" href="#inicio" aria-label="%%NOMBRE%%, ir al inicio">
+        <img src="img/logo-horizontal.png" alt="%%NOMBRE%%" width="360" height="156">
+      </a>
+      <nav class="nav__links" aria-label="Secciones">
+        <a href="#plantas">Plantas</a>
+        <a href="#vivero">El vivero</a>
+        <!-- SI:WHATSAPP --><a href="#reservar">Reservar</a><!-- /SI:WHATSAPP -->
+        <a href="#visitanos">Visítanos</a>
+      </nav>
+      <!-- SI:HORARIO --><p class="estado estado--nav" data-estado aria-live="polite"><span class="estado__punto"></span><span data-estado-texto>%%HORARIO_RESUMEN%%</span></p><!-- /SI:HORARIO -->
+      <!-- SI:WHATSAPP --><a class="btn btn--wa btn--sm nav__wa" href="%%WA_LINK%%" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a><!-- /SI:WHATSAPP -->
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- ===== Portada: invernadero ===== -->
+    <section class="hero">
+      <div class="hero__texto">
+        <p class="eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>%%HERO_EYEBROW%%</p>
+        <h1 class="hero__titulo" data-palabras>%%HERO_TITULO%% <em>%%HERO_DESTACADO%%</em></h1>
+        <p class="hero__bajada">%%HERO_BAJADA%%</p>
+        <div class="hero__cta">
+          <!-- SI:WHATSAPP --><a class="btn btn--wa" href="%%WA_LINK%%" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Escríbenos por WhatsApp</a><!-- /SI:WHATSAPP -->
+          <a class="btn btn--linea" href="#plantas">Ver plantas <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+        </div>
+        <!-- SI:HORARIO --><p class="estado estado--hero" data-estado aria-live="polite"><span class="estado__punto"></span><span data-estado-texto>%%HORARIO_RESUMEN%%</span></p><!-- /SI:HORARIO -->
+      </div>
+
+      <figure class="hero__arco">
+        <div class="arco" data-arco>
+          <picture>
+            <source media="(max-width: 760px)" srcset="%%HERO_FOTO_MOVIL%%">
+            <img src="%%HERO_FOTO%%" alt="Invernadero de %%NOMBRE%% con flores de temporada" fetchpriority="high">
+          </picture>
+          <!-- Estructura de madera del invernadero: se dibuja al cargar -->
+          <svg class="arco__marco" viewBox="0 0 400 520" preserveAspectRatio="none" aria-hidden="true">
+            <path pathLength="1" d="M200 0 V520"/>
+            <path pathLength="1" d="M0 250 H400"/>
+            <path pathLength="1" d="M100 27 V520"/>
+            <path pathLength="1" d="M300 27 V520"/>
+            <path pathLength="1" d="M0 390 H400"/>
+          </svg>
+        </div>
+        <!-- SI:HERO_NOTA --><figcaption class="hero__nota"><span class="tag__ojal" aria-hidden="true"></span>%%HERO_NOTA%%</figcaption><!-- /SI:HERO_NOTA -->
+        <!-- SI:SAG -->
+        <div class="sello" aria-label="Vivero autorizado por el SAG">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <defs><path id="sello-circulo" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+            <text><textPath href="#sello-circulo" textLength="272" lengthAdjust="spacing">VIVERO AUTORIZADO SAG · PLANTAS SANAS ·</textPath></text>
+          </svg>
+          <span class="sello__centro">SAG</span>
+        </div>
+        <!-- /SI:SAG -->
+      </figure>
+    </section>
+
+    <!-- ===== Marquesina escrita a mano ===== -->
+    <div class="marquesina" aria-hidden="true">
+      <div class="marquesina__pista"><!-- MARQUESINA --></div>
+    </div>
+
+    <!-- ===== Plantas ===== -->
+    <section class="plantas" id="plantas">
+      <header class="sec-head" data-reveal>
+        <p class="kicker">Recién llegadas al vivero</p>
+        <h2>Elige tu planta y <em>resérvala</em> por WhatsApp</h2>
+        <p>Una selección de lo que hay hoy en Salsipuedes: de interior, de jardín, frutales y árboles. Toca cualquiera para ver sus fotos y cuidados.</p>
+      </header>
+      <!-- SI:FILTROS --><div class="filtros" role="group" aria-label="Filtrar plantas por tipo"><!-- FILTROS --></div><!-- /SI:FILTROS -->
+      <div class="grilla" data-grilla data-filtro="*"><!-- PRODUCTOS -->
+        <!-- SI:CATALOGO -->
+        <a class="planta planta--mas" href="%%CATALOGO%%" target="_blank" rel="noopener" data-reveal>
+          <span class="planta--mas__txt">¿Buscas otra?</span>
+          <strong>Revisa el catálogo completo</strong>
+          <span>Precios y stock de todo el vivero <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha"/></svg></span>
+        </a>
+        <!-- /SI:CATALOGO -->
+      </div>
+    </section>
+
+    <!-- ===== Cifras del catálogo ===== -->
+    <!-- SI:CIFRAS -->
+    <section class="banco" aria-labelledby="banco-titulo">
+      <div class="banco__in">
+        <div class="banco__texto" data-reveal>
+          <p class="kicker kicker--claro">En el vivero hay mucho más</p>
+          <h2 id="banco-titulo">Mesones llenos, <em>todo el año</em></h2>
+          <!-- SI:CATALOGO --><a class="btn btn--claro" href="%%CATALOGO%%" target="_blank" rel="noopener">Ver catálogo online <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha"/></svg></a><!-- /SI:CATALOGO -->
+        </div>
+        <ul class="banco__cifras"><!-- CIFRAS --></ul>
+      </div>
+    </section>
+    <!-- /SI:CIFRAS -->
+
+    <!-- ===== El vivero ===== -->
+    <section class="vivero" id="vivero">
+      <div class="vivero__fotos" data-reveal>
+        <img class="vivero__f1" src="%%VIVERO_FOTO%%" alt="Coronas del inca en el invernadero de %%NOMBRE%%" loading="lazy" decoding="async">
+        <img class="vivero__f2" src="%%VIVERO_FOTO_2%%" alt="Crisantemos de temporada en %%NOMBRE%%" loading="lazy" decoding="async">
+        <svg class="vivero__hoja" viewBox="0 0 120 120" aria-hidden="true"><use href="#i-hoja-grande"/></svg>
+      </div>
+      <div class="vivero__texto">
+        <header class="sec-head sec-head--izq" data-reveal>
+          <p class="kicker">Del vivero a tu jardín</p>
+          <h2>Plantas criadas en <em>Salsipuedes</em></h2>
+        </header>
+        <ol class="razones">
+          <!-- SI:SAG -->
+          <li data-reveal><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-escudo"/></svg><div><strong>Vivero autorizado por el SAG</strong><p>Plantas sanas, libres de plagas y con respaldo sanitario oficial. Cultiva tranquilo.</p></div></li>
+          <!-- /SI:SAG -->
+          <li data-reveal style="--d:80ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-brote"/></svg><div><strong>Frutales, ornamentales y nativos</strong><p>Paltos, limoneros y ciruelos; flores de temporada; plantas de interior de colección y árboles nativos como el peumo.</p></div></li>
+          <!-- SI:MAYORISTA -->
+          <li data-reveal style="--d:160ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-caja"/></svg><div><strong>Precios por mayor</strong><p>%%MAYORISTA%%</p><!-- SI:WHATSAPP --><a class="link" href="%%WA_MAYOR%%" target="_blank" rel="noopener">Consultar precios por mayor <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha"/></svg></a><!-- /SI:WHATSAPP --></div></li>
+          <!-- /SI:MAYORISTA -->
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Formulario a WhatsApp ===== -->
+    <!-- SI:WHATSAPP -->
+    <section class="reservar" id="reservar">
+      <div class="reservar__in">
+        <header class="sec-head sec-head--izq reservar__head" data-reveal>
+          <p class="kicker">Reserva tu planta</p>
+          <h2>Cuéntanos qué buscas y te <em>apartamos</em> la tuya</h2>
+          <p>Llenas esto, revisas el mensaje y se abre WhatsApp con todo listo para enviar. Te respondemos con disponibilidad y precio.</p>
+        </header>
+        <form class="ficha-form" data-form novalidate>
+          <div class="campo">
+            <label for="f-nombre">Tu nombre <span aria-hidden="true">*</span></label>
+            <input id="f-nombre" name="nombre" autocomplete="given-name" required placeholder="Ej: Camila">
+            <small class="campo__error">Escribe tu nombre para saber cómo saludarte.</small>
+          </div>
+          <div class="campo">
+            <label for="f-planta">¿Qué planta buscas? <span aria-hidden="true">*</span></label>
+            <select id="f-planta" name="planta" required>
+              <option value="">Elige una</option>
+              <!-- OPCIONES_PLANTAS -->
+              <option>Otra planta / varias</option>
+            </select>
+            <small class="campo__error">Elige una planta (o «Otra planta / varias»).</small>
+          </div>
+          <fieldset class="campo campo--opciones">
+            <legend>¿Cómo compras?</legend>
+            <label class="opcion"><input type="radio" name="compra" value="Para mí (al detalle)" checked><span>Para mí</span></label>
+            <label class="opcion"><input type="radio" name="compra" value="Por mayor (tengo negocio)"><span>Por mayor</span></label>
+          </fieldset>
+          <fieldset class="campo campo--opciones">
+            <legend>¿Cómo la recibes?</legend>
+            <label class="opcion"><input type="radio" name="entrega" value="Retiro en el vivero" checked><span>Retiro en el vivero</span></label>
+            <label class="opcion"><input type="radio" name="entrega" value="Consultar despacho"><span>Consultar despacho</span></label>
+          </fieldset>
+          <div class="campo">
+            <label for="f-comuna">Tu comuna</label>
+            <select id="f-comuna" name="comuna">
+              <option value="">Elige tu comuna</option>
+              <!-- ZONAS -->
+              <option>Otra comuna</option>
+            </select>
+          </div>
+          <div class="campo campo--ancho">
+            <label for="f-detalle">Detalle (opcional)</label>
+            <textarea id="f-detalle" name="detalle" rows="3" placeholder="Ej: Necesito 3 limoneros y quiero ir el sábado en la mañana"></textarea>
+          </div>
+          <div class="vista campo--ancho" data-vista hidden>
+            <p class="vista__titulo">Así llegará tu mensaje:</p>
+            <pre class="vista__texto" data-vista-texto></pre>
+          </div>
+          <div class="ficha-form__acciones campo--ancho">
+            <button class="btn btn--wa" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Enviar por WhatsApp</button>
+            <p class="ficha-form__ayuda">Se abre WhatsApp al %%WA_NUMERO%%. Nada se envía hasta que tú lo mandes.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- /SI:WHATSAPP -->
+
+    <!-- ===== Opiniones (solo si hay) ===== -->
+    <!-- SI:TESTIMONIOS -->
+    <section class="opiniones">
+      <header class="sec-head" data-reveal>
+        <p class="kicker">Lo que dicen</p>
+        <h2>Clientes con el <em>jardín feliz</em></h2>
+      </header>
+      <div class="opiniones__grilla"><!-- TESTIMONIOS --></div>
+    </section>
+    <!-- /SI:TESTIMONIOS -->
+
+    <!-- ===== Visítanos ===== -->
+    <section class="visita" id="visitanos">
+      <header class="sec-head sec-head--izq" data-reveal>
+        <p class="kicker">Visítanos</p>
+        <h2>Ven por la tuya a <em>Salsipuedes</em></h2>
+      </header>
+      <div class="visita__grilla">
+        <!-- SI:HORARIO -->
+        <div class="horario" data-reveal>
+          <p class="estado estado--grande" data-estado aria-live="polite"><span class="estado__punto"></span><span data-estado-texto>%%HORARIO_RESUMEN%%</span></p>
+          <ul class="horario__dias" data-horario><!-- HORARIO_DIAS --></ul>
+        </div>
+        <!-- /SI:HORARIO -->
+        <div class="contacto" data-reveal style="--d:90ms">
+          <!-- SI:DIRECCION -->
+          <div class="contacto__item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>
+            <div><strong>%%DIRECCION_TEXTO%%</strong><!-- SI:REFERENCIA --><span>%%REFERENCIA%%</span><!-- /SI:REFERENCIA --><span>%%REGION%%</span></div>
+          </div>
+          <!-- /SI:DIRECCION -->
+          <!-- SI:WHATSAPP -->
+          <a class="contacto__item" href="%%WA_LINK%%" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            <div><strong>%%WA_NUMERO%%</strong><span>WhatsApp · pedidos y consultas</span></div>
+          </a>
+          <!-- /SI:WHATSAPP -->
+          <!-- SI:INSTAGRAM -->
+          <a class="contacto__item" href="%%IG_URL%%" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig"/></svg>
+            <div><strong>@%%INSTAGRAM%%</strong><span>Novedades y llegadas en Instagram</span></div>
+          </a>
+          <!-- /SI:INSTAGRAM -->
+          <!-- SI:EMAIL -->
+          <a class="contacto__item" href="mailto:%%EMAIL%%">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"/></svg>
+            <div><strong>%%EMAIL%%</strong><span>Correo</span></div>
+          </a>
+          <!-- /SI:EMAIL -->
+          <!-- SI:CATALOGO -->
+          <a class="contacto__item" href="%%CATALOGO%%" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-lista"/></svg>
+            <div><strong>Catálogo online</strong><span>Precios y stock actualizados</span></div>
+          </a>
+          <!-- /SI:CATALOGO -->
+          <div class="contacto__cta">
+            <!-- SI:DIRECCION --><a class="btn btn--tinta" href="%%MAPA_LINK%%" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ruta"/></svg>Cómo llegar</a><!-- /SI:DIRECCION -->
+            <!-- SI:WHATSAPP --><a class="btn btn--linea" href="%%WA_LINK%%" target="_blank" rel="noopener">Pedir ubicación por WhatsApp</a><!-- /SI:WHATSAPP -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Mapa (se carga al acercarse) ===== -->
+    <!-- SI:DIRECCION -->
+    <section class="mapa" aria-label="Mapa de %%NOMBRE%%">
+      <div class="mapa__marco" data-mapa data-src="%%MAPA_SRC%%" data-titulo="Mapa de %%NOMBRE%%">
+        <div class="mapa__espera">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>
+          <p><strong>%%DIRECCION_TEXTO%%</strong><!-- SI:REFERENCIA --> · %%REFERENCIA%%<!-- /SI:REFERENCIA --></p>
+          <button type="button" class="btn btn--tinta btn--sm" data-mapa-cargar>Ver mapa</button>
+        </div>
+      </div>
+    </section>
+    <!-- /SI:DIRECCION -->
+  </main>
+
+  <footer class="pie">
+    <div class="pie__in">
+      <img class="pie__logo" src="img/logo-claro.png" alt="%%NOMBRE%%" width="360" height="156" loading="lazy">
+      <p class="pie__lema">%%LEMA%% · %%CIUDAD%%, %%REGION%%</p>
+      <nav class="pie__links" aria-label="Redes y contacto">
+        <!-- SI:WHATSAPP --><a href="%%WA_LINK%%" target="_blank" rel="noopener">WhatsApp</a><!-- /SI:WHATSAPP -->
+        <!-- SI:INSTAGRAM --><a href="%%IG_URL%%" target="_blank" rel="noopener">Instagram</a><!-- /SI:INSTAGRAM -->
+        <!-- SI:CATALOGO --><a href="%%CATALOGO%%" target="_blank" rel="noopener">Catálogo</a><!-- /SI:CATALOGO -->
+      </nav>
+      <p class="pie__legal">© %%ANIO%% %%NOMBRE%% · Web por RunClick Webs</p>
+    </div>
+  </footer>
+
+  <!-- SI:WHATSAPP -->
+  <a class="wa-flota" href="%%WA_LINK%%" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></a>
+  <!-- /SI:WHATSAPP -->
+
+  <!-- ===== Ficha de planta ===== -->
+  <dialog class="ficha" data-ficha aria-labelledby="ficha-nombre">
+    <div class="ficha__in">
+      <button type="button" class="ficha__cerrar" data-cerrar aria-label="Cerrar">×</button>
+      <div class="ficha__galeria">
+        <img class="ficha__foto" data-ficha-foto alt="">
+        <div class="ficha__miniaturas" data-ficha-minis></div>
+      </div>
+      <div class="ficha__info">
+        <p class="kicker" data-ficha-cat></p>
+        <h3 id="ficha-nombre" data-ficha-nombre></h3>
+        <p class="ficha__precio" data-ficha-precio></p>
+        <p class="ficha__desc" data-ficha-desc></p>
+        <dl class="ficha__cuidados" data-ficha-cuidados>
+          <div data-ficha-luz><dt>☀️ Luz</dt><dd></dd></div>
+          <div data-ficha-riego><dt>💧 Riego</dt><dd></dd></div>
+        </dl>
+        <a class="btn btn--wa" data-ficha-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg><span data-ficha-wa-texto>Reservar por WhatsApp</span></a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- ===== Flyer de promoción (se activa en /admin) ===== -->
+  <!-- SI:FLYER -->
+  <dialog class="flyer" data-flyer aria-label="%%FLYER_TITULO%%">
+    <button type="button" class="ficha__cerrar" data-cerrar aria-label="Cerrar">×</button>
+    <img src="%%FLYER_IMG%%" alt="%%FLYER_TITULO%%">
+    <div class="flyer__texto"><strong>%%FLYER_TITULO%%</strong><p>%%FLYER_TEXTO%%</p><a class="btn btn--wa" href="%%FLYER_LINK%%" target="_blank" rel="noopener">La quiero</a></div>
+  </dialog>
+  <!-- /SI:FLYER -->
+
+  <!-- Íconos (trazo = currentColor) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-lista" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></symbol>
+    <symbol id="i-ruta" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8z"/></symbol>
+    <symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-brote" viewBox="0 0 24 24"><path d="M12 21v-9"/><path d="M12 12C12 7 8 4 3 4c0 5 4 8 9 8z"/><path d="M12 14c0-4 3-7 8-7 0 4-3 7-8 7z"/></symbol>
+    <symbol id="i-caja" viewBox="0 0 24 24"><path d="M3 8 12 3l9 5v8l-9 5-9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></symbol>
+    <symbol id="i-hoja-grande" viewBox="0 0 120 120"><path d="M18 102C14 58 44 20 104 14c2 56-30 90-86 88z"/><path d="M18 102 86 34M40 80h22M52 68V48M64 56h20M74 46V32"/></symbol>
+  </svg>
+
+  <script>window.SITIO = %%SITIO_JSON%%;</script>
+  <script src="app.js" defer></script>
+</body>
+</html>
