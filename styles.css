@@ -425,8 +425,10 @@ a.contacto__item:hover { background: rgba(255, 253, 247, .8); }
 @keyframes abrir { from { opacity: 0; transform: translateY(24px) scale(.98); } }
 @media (max-width: 760px) {
   .ficha { max-width: 100%; margin: auto 0 0; max-height: 94dvh; }
-  .ficha__in { grid-template-columns: 1fr; border-radius: var(--r) var(--r) 0 0; max-height: 94dvh; overflow-y: auto; }
-  .ficha__foto { max-height: 46dvh; aspect-ratio: 4 / 3.6; }
+  /* En celular la ficha es una columna simple: foto arriba, texto debajo (sin superponerse) */
+  .ficha__in { display: block; border-radius: var(--r) var(--r) 0 0; max-height: 94dvh; overflow-y: auto; }
+  .ficha__galeria { display: block; }
+  .ficha__foto { height: auto; max-height: none; aspect-ratio: 4 / 3.4; }
   .ficha__info { overflow: visible; }
   .ficha__info .btn { width: 100%; }
 }
