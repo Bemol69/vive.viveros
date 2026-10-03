@@ -1,0 +1,16 @@
+{
+  "nombre": "Pera Roja",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pera-roja.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2127,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Pata de jaiba ch",
+  "categoria": "Plantas de interior",
+  "precio": 6500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pata-de-jaiba-ch.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 185,
+  "visible": true
+}

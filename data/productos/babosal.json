@@ -1,0 +1,16 @@
+{
+  "nombre": "Babosal",
+  "categoria": "Insumos",
+  "precio": 2000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/babosal.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9102,
+  "visible": true
+}

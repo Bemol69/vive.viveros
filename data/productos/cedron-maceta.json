@@ -1,0 +1,16 @@
+{
+  "nombre": "Cedron Maceta",
+  "categoria": "Hierbas y huerta",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cedron-maceta.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7104,
+  "visible": true
+}

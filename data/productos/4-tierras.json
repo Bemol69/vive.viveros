@@ -1,0 +1,16 @@
+{
+  "nombre": "4 Tierras",
+  "categoria": "Insumos",
+  "precio": 1500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/4-tierras.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9101,
+  "visible": true
+}

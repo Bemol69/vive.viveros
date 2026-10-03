@@ -1,0 +1,16 @@
+{
+  "nombre": "Jardinera Rústica",
+  "categoria": "Maceteros",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/jardinera-rustica.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8106,
+  "visible": true
+}

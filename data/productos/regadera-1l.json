@@ -1,0 +1,16 @@
+{
+  "nombre": "Regadera 1L",
+  "categoria": "Insumos",
+  "precio": 9000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/regadera-1l.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9129,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Cucharitas M15",
+  "categoria": "Plantas de interior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cucharitas-m15.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 120,
+  "visible": true
+}

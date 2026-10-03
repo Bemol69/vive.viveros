@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio Variegado",
+  "categoria": "Plantas de interior",
+  "precio": 7000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-variegado.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 165,
+  "visible": true
+}

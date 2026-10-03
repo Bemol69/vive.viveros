@@ -1,0 +1,16 @@
+{
+  "nombre": "Papel diseño",
+  "categoria": "Otros",
+  "precio": 350,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10112,
+  "visible": true
+}

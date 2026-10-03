@@ -1,0 +1,16 @@
+{
+  "nombre": "Ficus Lyrata",
+  "categoria": "Plantas de interior",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ficus-lyrata.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 134,
+  "visible": true
+}

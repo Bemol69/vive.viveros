@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero V-8140",
+  "categoria": "Maceteros",
+  "precio": 1500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-v-8140.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8127,
+  "visible": true
+}

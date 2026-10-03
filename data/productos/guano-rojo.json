@@ -1,0 +1,16 @@
+{
+  "nombre": "Guano Rojo",
+  "categoria": "Insumos",
+  "precio": 1200,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/guano-rojo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9110,
+  "visible": true
+}

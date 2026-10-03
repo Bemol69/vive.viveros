@@ -1,0 +1,16 @@
+{
+  "nombre": "Mandarina",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/mandarina.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2122,
+  "visible": true
+}

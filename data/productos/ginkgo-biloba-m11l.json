@@ -1,0 +1,16 @@
+{
+  "nombre": "Ginkgo Biloba M11L",
+  "categoria": "Árboles",
+  "precio": 18000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ginkgo-biloba-m11l.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3109,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa Mundi",
+  "categoria": "Rosas",
+  "precio": 6900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-mundi.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4106,
+  "visible": true
+}

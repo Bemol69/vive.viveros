@@ -1,0 +1,16 @@
+{
+  "nombre": "Philodendron florida",
+  "categoria": "Colección",
+  "precio": 7000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/philodendron-florida.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 5112,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Quillay",
+  "categoria": "Árboles",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/quillay.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3117,
+  "visible": true
+}

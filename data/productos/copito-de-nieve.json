@@ -1,0 +1,16 @@
+{
+  "nombre": "Copito de Nieve",
+  "categoria": "Plantas de exterior",
+  "precio": 15000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/copito-de-nieve.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1113,
+  "visible": true
+}

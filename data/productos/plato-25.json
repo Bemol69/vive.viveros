@@ -1,0 +1,16 @@
+{
+  "nombre": "Plato 25",
+  "categoria": "Maceteros",
+  "precio": 500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/plato-25.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8134,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Matecero P01-7",
+  "categoria": "Maceteros",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/matecero-p01-7.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8139,
+  "visible": true
+}

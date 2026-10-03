@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero A83",
+  "categoria": "Maceteros",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-a83.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8114,
+  "visible": true
+}

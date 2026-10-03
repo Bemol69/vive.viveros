@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero relieve grande",
+  "categoria": "Maceteros",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-relieve-grande.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8128,
+  "visible": true
+}

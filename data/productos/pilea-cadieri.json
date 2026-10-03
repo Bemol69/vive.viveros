@@ -1,0 +1,16 @@
+{
+  "nombre": "Pilea Cadieri",
+  "categoria": "Plantas de interior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pilea-cadieri.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 178,
+  "visible": true
+}

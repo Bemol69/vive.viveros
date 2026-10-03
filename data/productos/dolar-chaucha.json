@@ -1,0 +1,16 @@
+{
+  "nombre": "Dólar Chaucha",
+  "categoria": "Plantas de interior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/dolar-chaucha.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 124,
+  "visible": true
+}

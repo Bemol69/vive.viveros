@@ -1,0 +1,16 @@
+{
+  "nombre": "Regadera 1,5L",
+  "categoria": "Insumos",
+  "precio": 9500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/regadera-1-5l.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9128,
+  "visible": true
+}

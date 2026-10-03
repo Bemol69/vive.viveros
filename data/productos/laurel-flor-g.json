@@ -1,0 +1,16 @@
+{
+  "nombre": "Laurel Flor G",
+  "categoria": "Plantas de exterior",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/laurel-flor-g.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1150,
+  "visible": true
+}

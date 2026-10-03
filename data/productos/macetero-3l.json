@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero 3L",
+  "categoria": "Maceteros",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8111,
+  "visible": true
+}

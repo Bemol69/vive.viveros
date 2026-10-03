@@ -1,0 +1,16 @@
+{
+  "nombre": "Frambuesa",
+  "categoria": "Frutales",
+  "precio": 1500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/frambuesa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2114,
+  "visible": true
+}

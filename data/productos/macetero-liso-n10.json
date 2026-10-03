@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N10",
+  "categoria": "Maceteros",
+  "precio": 200,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n10.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8150,
+  "visible": true
+}

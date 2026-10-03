@@ -1,0 +1,16 @@
+{
+  "nombre": "Retamo",
+  "categoria": "Plantas de exterior",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/retamo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1137,
+  "visible": true
+}

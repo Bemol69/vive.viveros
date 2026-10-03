@@ -1,0 +1,16 @@
+{
+  "nombre": "Maiten",
+  "categoria": "Árboles",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/maiten.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3111,
+  "visible": true
+}

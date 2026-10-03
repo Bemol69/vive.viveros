@@ -1,0 +1,16 @@
+{
+  "nombre": "Arándanos",
+  "categoria": "Frutales",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/arandanos.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2102,
+  "visible": true
+}

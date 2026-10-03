@@ -1,0 +1,16 @@
+{
+  "nombre": "Bromelia",
+  "categoria": "Plantas de interior",
+  "precio": 17000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/bromelia.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 109,
+  "visible": true
+}

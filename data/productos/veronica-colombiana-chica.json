@@ -1,0 +1,16 @@
+{
+  "nombre": "Verónica colombiana chica",
+  "categoria": "Plantas de exterior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/veronica-colombiana-chica.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1133,
+  "visible": true
+}

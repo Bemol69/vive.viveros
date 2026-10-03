@@ -1,0 +1,16 @@
+{
+  "nombre": "Laurentina",
+  "categoria": "Plantas de exterior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/laurentina.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1148,
+  "visible": true
+}

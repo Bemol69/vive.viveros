@@ -1,0 +1,16 @@
+{
+  "nombre": "Monstera",
+  "categoria": "Plantas de interior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/monstera.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 192,
+  "visible": true
+}

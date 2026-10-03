@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Estado de tu pago | %%NOMBRE%%</title>
+  <meta name="theme-color" content="%%COLOR_PAPEL%%">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="%%FUENTES_URL%%">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="pag-pago">
+  <header class="nav is-scroll">
+    <div class="nav__in">
+      <a class="nav__logo" href="./" aria-label="%%NOMBRE%%, ir al inicio"><img src="img/logo-horizontal.png" alt="%%NOMBRE%%" width="360" height="156"></a>
+      <nav class="nav__links" aria-label="Secciones"><a href="./">Inicio</a><a href="%%CATALOGO_URL%%">Catálogo</a></nav>
+    </div>
+  </header>
+
+  <!-- Vuelta desde Klap: pago.js consulta el estado real de la orden (nunca se confía en la URL) -->
+  <main class="pago" data-pago data-whatsapp="%%WHATSAPP%%">
+    <section class="pago__caja" data-estado-pago="cargando">
+      <div class="pago__icono" aria-hidden="true"><span class="pago__rueda"></span></div>
+      <h1>Confirmando tu pago…</h1>
+      <p>Estamos consultando a Klap. Esto toma unos segundos.</p>
+    </section>
+    <section class="pago__caja" data-estado-pago="ok" hidden>
+      <div class="pago__icono pago__icono--ok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 12.5 4 4L18 8.5"/></svg></div>
+      <h1>¡Pago recibido!</h1>
+      <p>Tu pedido <strong data-pago-codigo></strong> quedó pagado. Avísanos por WhatsApp para coordinar el retiro o el despacho.</p>
+      <a class="btn btn--wa" data-pago-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Avisar por WhatsApp</a>
+      <a class="link" href="%%CATALOGO_URL%%">Seguir viendo el catálogo</a>
+    </section>
+    <section class="pago__caja" data-estado-pago="pendiente" hidden>
+      <div class="pago__icono"><span class="pago__rueda"></span></div>
+      <h1>Tu pago se está procesando</h1>
+      <p>Klap aún no lo confirma. Puedes esperar un momento o escribirnos con tu código <strong data-pago-codigo></strong>.</p>
+      <button type="button" class="btn btn--tinta" data-pago-reintentar>Consultar de nuevo</button>
+    </section>
+    <section class="pago__caja" data-estado-pago="error" hidden>
+      <div class="pago__icono pago__icono--error"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg></div>
+      <h1>El pago no se completó</h1>
+      <p data-pago-motivo>No se hizo ningún cargo. Tu pedido sigue guardado: puedes intentar de nuevo o enviarlo por WhatsApp y pagar en el vivero.</p>
+      <a class="btn btn--tinta" href="%%CATALOGO_URL%%#pedido">Volver a mi pedido</a>
+    </section>
+    <section class="pago__caja" data-estado-pago="nada" hidden>
+      <h1>No hay un pago en curso</h1>
+      <p>Si ya pagaste y ves este mensaje, escríbenos por WhatsApp con tu código de pedido y lo revisamos.</p>
+      <a class="btn btn--tinta" href="%%CATALOGO_URL%%">Ir al catálogo</a>
+    </section>
+  </main>
+
+  <!-- PARCIAL:iconos -->
+  <script src="pago.js" defer></script>
+</body>
+</html>

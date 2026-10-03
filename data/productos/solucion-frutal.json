@@ -1,0 +1,16 @@
+{
+  "nombre": "Solución frutal",
+  "categoria": "Insumos",
+  "precio": 2000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/solucion-frutal.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9119,
+  "visible": true
+}

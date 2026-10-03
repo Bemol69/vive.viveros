@@ -1,0 +1,16 @@
+{
+  "nombre": "Fucsia M14",
+  "categoria": "Plantas de interior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/fucsia-m14.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 137,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero DY180",
+  "categoria": "Maceteros",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-dy180.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8157,
+  "visible": true
+}

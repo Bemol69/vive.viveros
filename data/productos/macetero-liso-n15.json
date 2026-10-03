@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N15",
+  "categoria": "Maceteros",
+  "precio": 450,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n15.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8152,
+  "visible": true
+}

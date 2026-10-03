@@ -1,0 +1,16 @@
+{
+  "nombre": "Philodendron Atom",
+  "categoria": "Plantas de interior",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/philodendron-atom.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 179,
+  "visible": true
+}

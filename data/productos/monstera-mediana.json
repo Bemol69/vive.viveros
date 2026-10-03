@@ -1,0 +1,16 @@
+{
+  "nombre": "Monstera mediana",
+  "categoria": "Plantas de interior",
+  "precio": 15000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/monstera-mediana.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 190,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Durazno Flor Roja",
+  "categoria": "Árboles",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/durazno-flor-roja.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3108,
+  "visible": true
+}

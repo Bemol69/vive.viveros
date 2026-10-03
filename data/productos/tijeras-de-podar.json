@@ -1,0 +1,16 @@
+{
+  "nombre": "Tijeras de podar",
+  "categoria": "Insumos",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/tijeras-de-podar.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9124,
+  "visible": true
+}

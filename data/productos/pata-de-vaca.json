@@ -1,0 +1,16 @@
+{
+  "nombre": "Pata de Vaca",
+  "categoria": "Árboles",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pata-de-vaca.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3113,
+  "visible": true
+}

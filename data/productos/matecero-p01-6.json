@@ -1,0 +1,16 @@
+{
+  "nombre": "Matecero P01-6",
+  "categoria": "Maceteros",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/matecero-p01-6.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8140,
+  "visible": true
+}

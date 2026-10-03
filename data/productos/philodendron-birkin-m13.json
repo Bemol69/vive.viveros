@@ -1,0 +1,16 @@
+{
+  "nombre": "Philodendron birkin M13",
+  "categoria": "Colección",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/philodendron-birkin-m13.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 5111,
+  "visible": true
+}

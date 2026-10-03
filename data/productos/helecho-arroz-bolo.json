@@ -1,0 +1,16 @@
+{
+  "nombre": "Helecho arroz bolo",
+  "categoria": "Plantas de interior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/helecho-arroz-bolo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 157,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Pensamientos",
+  "categoria": "Plantas de temporada",
+  "precio": 650,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pensamientos.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 6106,
+  "visible": true
+}

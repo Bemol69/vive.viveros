@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa Tigre, Julio Iglesias",
+  "categoria": "Rosas",
+  "precio": 10500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-tigre-julio-iglesias.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4112,
+  "visible": true
+}

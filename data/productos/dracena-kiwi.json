@@ -1,0 +1,16 @@
+{
+  "nombre": "Dracena kiwi",
+  "categoria": "Plantas de interior",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/dracena-kiwi.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 129,
+  "visible": true
+}

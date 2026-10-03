@@ -1,0 +1,16 @@
+{
+  "nombre": "Enrraizante Keri Root",
+  "categoria": "Insumos",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/enrraizante-keri-root.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9104,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Dólar Blanco",
+  "categoria": "Plantas de interior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/dolar-blanco.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 123,
+  "visible": true
+}

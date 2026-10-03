@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N17",
+  "categoria": "Maceteros",
+  "precio": 500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n17.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8153,
+  "visible": true
+}

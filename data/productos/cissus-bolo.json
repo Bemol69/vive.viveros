@@ -1,0 +1,16 @@
+{
+  "nombre": "Cissus Bolo",
+  "categoria": "Plantas de exterior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cissus-bolo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1110,
+  "visible": true
+}

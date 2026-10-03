@@ -1,0 +1,16 @@
+{
+  "nombre": "Yucca",
+  "categoria": "Plantas de interior",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/yucca.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 160,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Plato 14",
+  "categoria": "Maceteros",
+  "precio": 230,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/plato-14.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8135,
+  "visible": true
+}

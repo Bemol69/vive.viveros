@@ -1,0 +1,16 @@
+{
+  "nombre": "Limón sutil",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/limon-sutil.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2120,
+  "visible": true
+}

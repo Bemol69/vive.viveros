@@ -1,0 +1,16 @@
+{
+  "nombre": "Balcon Simple",
+  "categoria": "Maceteros",
+  "precio": 1800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/balcon-simple.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8103,
+  "visible": true
+}

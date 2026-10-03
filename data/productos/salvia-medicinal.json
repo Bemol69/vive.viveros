@@ -1,0 +1,16 @@
+{
+  "nombre": "Salvia Medicinal",
+  "categoria": "Hierbas y huerta",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/salvia-medicinal.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7112,
+  "visible": true
+}

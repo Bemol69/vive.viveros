@@ -1,0 +1,16 @@
+{
+  "nombre": "Sterculia",
+  "categoria": "Árboles",
+  "precio": 18000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/sterculia.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3118,
+  "visible": true
+}

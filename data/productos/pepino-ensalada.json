@@ -1,0 +1,16 @@
+{
+  "nombre": "Pepino ensalada",
+  "categoria": "Hierbas y huerta",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pepino-ensalada.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7108,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Eucalipto dolar",
+  "categoria": "Otros",
+  "precio": 2900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10106,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Philodendro Birkin",
+  "categoria": "Colección",
+  "precio": 7000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/philodendro-birkin.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 5108,
+  "visible": true
+}

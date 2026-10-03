@@ -1,0 +1,16 @@
+{
+  "nombre": "Higuera",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/higuera.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2116,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Kalanchoe Flor chico",
+  "categoria": "Plantas de interior",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/kalanchoe-flor-chico.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 145,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Aucuba",
+  "categoria": "Plantas de exterior",
+  "precio": 5900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/aucuba.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1103,
+  "visible": true
+}

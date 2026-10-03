@@ -1,0 +1,16 @@
+{
+  "nombre": "Mancaqui Giro",
+  "categoria": "Frutales",
+  "precio": 12000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/mancaqui-giro.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2121,
+  "visible": true
+}

@@ -1,6 +1,7 @@
 # Configuración del panel /admin (Sveltia CMS)
 # Cada cambio que se guarda aquí crea un commit en GitHub.
-# Vercel arma la web (scripts/build.mjs) y la publica en ~30 segundos.
+# Vercel arma la web (scripts/build.mjs) y la publica en ~1 minuto.
+# Este archivo pasa por el build: %%CATEGORIAS_YAML%% sale de data/categorias.json.
 
 backend:
   name: github
@@ -38,11 +39,11 @@ media_libraries:
           height: 1200
 
 collections:
-  # ---------- PLANTAS ----------
+  # ---------- PRODUCTOS (todo el catálogo) ----------
   - name: productos
-    label: Plantas
-    label_singular: planta
-    description: "Las plantas de «Elige tu planta». La destacada sale primero y en grande. Se ven mejor 10 o menos: para todo el resto está el catálogo online."
+    label: Productos
+    label_singular: producto
+    description: "Todo el catálogo. Para cambiar un precio: búscalo, cámbialo y toca Guardar. Si se acaba, marca «Agotado» (no lo borres). La web se actualiza sola en 1 minuto."
     icon: potted_plant
     folder: data/productos
     format: json
@@ -50,79 +51,125 @@ collections:
     delete: true
     identifier_field: nombre
     slug: "{{nombre}}"
-    summary: "{{nombre}} · {{categoria}}"
+    summary: "{{nombre}} · ${{precio}}{{agotado | ternary(' · AGOTADO', '')}}"
+    thumbnail: portada
     sortable_fields:
-      fields: [orden, nombre, precio]
+      fields: [nombre, precio, categoria, orden]
       default:
-        field: orden
+        field: nombre
         direction: ascending
+    view_filters:
+      - { label: "Agotados", field: agotado, pattern: true }
+      - { label: "En la página principal", field: inicio, pattern: true }
+      - { label: "Con precio por mayor", field: precio_mayor, pattern: '\d' }
+      - { label: "Ocultos de la web", field: visible, pattern: false }
+    view_groups:
+      - { label: Categoría, field: categoria }
     fields:
+      # Lo de todos los días
       - name: nombre
-        label: Nombre de la planta
-        hint: "Como la conoce la gente. Ej: Limonero Eureka Frost"
+        label: Nombre
+        hint: "Como lo conoce la gente. Ej: Limonero Eureka"
         widget: string
-      - name: categoria
-        label: Tipo
-        hint: "Se usa para los filtros de la web."
-        widget: select
-        options: ["Interior", "Flores y exterior", "Frutales", "Árboles y nativos", "Hierbas", "Rosas", "Maceteros e insumos"]
-        default: Interior
       - name: precio
         label: Precio (en pesos)
-        hint: "Solo números, sin puntos ni signo $. Ej: 8000. Déjalo vacío para que diga «Consultar precio»."
+        hint: "Solo números, sin puntos ni $. Ej: 8000. Vacío = «Consultar precio»."
+        widget: number
+        value_type: int
+        min: 0
+        required: false
+      - name: categoria
+        label: Categoría
+        hint: "Para agregar o renombrar categorías, ve a «Categorías» (aparecen aquí 1 minuto después de guardar)."
+        widget: select
+        options: %%CATEGORIAS_YAML%%
+      - name: portada
+        label: Foto
+        hint: "Cuadrada o vertical, con el producto al centro y buena luz. Se achica sola al subirla."
+        widget: image
+        required: false
+      - name: agotado
+        label: ¿Agotado?
+        hint: "Sigue apareciendo en el catálogo, pero no se puede pedir y ofrece «Avísame cuando llegue»."
+        widget: boolean
+        default: false
+        required: false
+      # Opcional
+      - name: precio_mayor
+        label: "Precio por mayor (opcional)"
+        hint: "Se usa cuando el cliente elige «Por mayor» en el pedido. Debe ser menor que el precio normal."
         widget: number
         value_type: int
         min: 0
         required: false
       - name: descripcion
-        label: Descripción
-        hint: "Una o dos frases: qué es y por qué llevarla. Ej: Variedad de excelente rendimiento, con frutos de gran calidad."
+        label: "Descripción (opcional)"
+        hint: "Una o dos frases: qué es, tamaño o maceta. Ej: Maceta N°17, aprox. 60 cm de alto."
         widget: text
         required: false
       - name: luz
-        label: "Cuidados: luz"
-        hint: "Ej: Pleno sol / Luz indirecta, sin sol directo. Déjalo vacío si no aplica."
+        label: "Cuidados: luz (opcional)"
+        hint: "Ej: Pleno sol / Luz indirecta, sin sol directo"
         widget: string
         required: false
       - name: riego
-        label: "Cuidados: riego"
+        label: "Cuidados: riego (opcional)"
         hint: "Ej: Dejar secar el sustrato entre riegos"
         widget: string
         required: false
       - name: etiqueta
-        label: Cinta sobre la foto
-        hint: "Opcional y corta. Ej: Pocas unidades, Recién llegada, Nativo, Precio por mayor"
+        label: "Cinta sobre la foto (opcional)"
+        hint: "Corta. Ej: Oferta, Recién llegada, Nativo, Pocas unidades"
         widget: string
         required: false
-      - name: portada
-        label: Foto principal
-        hint: "La que se ve en la tarjeta. Mejor vertical, con la planta al centro y buena luz."
-        widget: image
       - name: fotos
-        label: Más fotos
-        hint: "Se ven al tocar la planta. Hasta 4 se ve bien."
+        label: "Más fotos (opcional)"
+        hint: "Se ven al abrir el producto. Hasta 4 se ve bien."
         widget: list
         required: false
         field: { name: foto, label: Foto, widget: image }
+      - name: inicio
+        label: ¿Mostrar en la página principal?
+        hint: "Las elegidas salen en «Recién llegadas» de la portada. Lo ideal: entre 6 y 10."
+        widget: boolean
+        default: false
+        required: false
       - name: destacado
-        label: ¿Destacada?
-        hint: "La destacada aparece primero y en grande. Deja solo una."
+        label: ¿Destacado en grande?
+        hint: "Sale primero y en grande en la portada. Deja solo uno."
         widget: boolean
         default: false
         required: false
       - name: orden
         label: Orden
-        hint: "Número más bajo = aparece antes. Ej: 1, 2, 3…"
+        hint: "Número más bajo = aparece antes en «Destacados». Ej: 1, 2, 3…"
         widget: number
         value_type: int
-        default: 20
+        default: 500
         required: false
       - name: visible
         label: ¿Mostrar en la web?
-        hint: "Apágalo cuando se agote, sin borrarla."
+        hint: "Apágalo para esconderlo sin borrarlo (por ejemplo, productos de otra temporada)."
         widget: boolean
         default: true
         required: false
+
+  # ---------- CATEGORÍAS ----------
+  - name: categorias
+    label: Categorías
+    icon: category
+    files:
+      - name: categorias
+        label: Categorías del catálogo
+        file: data/categorias.json
+        fields:
+          - name: categorias
+            label: Categorías
+            hint: "Arrastra para cambiar el orden en el catálogo. Si renombras una, cambia también la categoría de sus productos."
+            widget: list
+            summary: "{{fields.nombre}}"
+            fields:
+              - { name: nombre, label: Nombre, widget: string }
 
   # ---------- DATOS DEL VIVERO ----------
   - name: ajustes
@@ -130,12 +177,12 @@ collections:
     icon: storefront
     files:
       - name: ajustes
-        label: Contacto, dirección, horario y portada
+        label: Contacto, horario, pagos y portada
         file: data/ajustes.json
         fields:
           - name: whatsapp
-            label: WhatsApp
-            hint: "Formato internacional, solo números. Ej: 56944068856. Si lo dejas vacío, se ocultan el formulario y los botones de WhatsApp."
+            label: WhatsApp de pedidos
+            hint: "Formato internacional, solo números. Ej: 56944068856. Si lo dejas vacío, se ocultan el pedido y los botones de WhatsApp."
             widget: string
             required: false
             pattern: ["^$|^569\\d{8}$", "Debe partir con 569 y tener 11 números, ej: 56944068856"]
@@ -143,6 +190,17 @@ collections:
             label: Mensaje inicial de WhatsApp
             hint: "Lo que aparece escrito cuando alguien toca «WhatsApp». Ej: Hola Vive Viveros 🌿 Quiero hacer una consulta."
             widget: string
+          - name: medios_pago
+            label: Medios de pago del pedido
+            hint: "Las opciones del paso «Pago» en «Tu pedido». Ej: Transferencia, Efectivo, Débito / Crédito"
+            widget: list
+            required: false
+          - name: pago_online
+            label: "¿Activar «Pagar ahora con tarjeta» (Klap)?"
+            hint: "Solo enciéndelo cuando el desarrollador confirme que Klap está configurado. Si algo falla, el cliente siempre puede enviar el pedido por WhatsApp."
+            widget: boolean
+            default: false
+            required: false
           - name: instagram
             label: Usuario de Instagram
             hint: "Sin @. Ej: vive.viveros"
@@ -153,11 +211,6 @@ collections:
             widget: string
             required: false
             pattern: ["^$|^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$", "Escribe un correo válido, ej: viveviveros@gmail.com"]
-          - name: catalogo_url
-            label: Link del catálogo online
-            hint: "El link del catálogo (Kyte). Déjalo vacío para ocultar los botones del catálogo."
-            widget: string
-            required: false
           - name: direccion
             label: Dirección para Google Maps
             hint: "Como la busca Google. Ej: Vive Viveros, Salsipuedes s/n, Malloa, O'Higgins. Si la dejas vacía, se oculta el mapa."
@@ -181,12 +234,12 @@ collections:
             widget: string
             required: false
           - name: zonas
-            label: Comunas del formulario
-            hint: "Las que aparecen en «Tu comuna». Ej: Malloa, Rengo, San Fernando"
+            label: Comunas con despacho
+            hint: "Las que aparecen en «Comuna» al pedir despacho. Ej: Malloa, Rengo, San Fernando"
             widget: list
           - name: horario
             label: Horario de atención
-            hint: "Un día por fila, de lunes a domingo. Horas en formato 24 h (HH:MM), ej: 10:00. Si cierran a mediodía, usa el segundo tramo. Si todos los días quedan cerrados, se oculta el horario."
+            hint: "Un día por fila, de lunes a domingo. Horas en formato 24 h (HH:MM), ej: 10:00. Si cierran a mediodía, usa el segundo tramo."
             widget: list
             allow_add: false
             allow_remove: false
@@ -233,15 +286,6 @@ collections:
             hint: "Vacío = no se muestra. Ej: ¿Tienes vivero o florería? Tenemos precios especiales por cantidad."
             widget: text
             required: false
-          - name: cifras
-            label: "Cifras del vivero (máximo 4)"
-            hint: "Los números grandes de «En el vivero hay mucho más». Actualízalos cuando cambie el catálogo."
-            widget: list
-            max: 4
-            required: false
-            fields:
-              - { name: numero, label: Número, widget: number, value_type: int }
-              - { name: texto, label: Texto, widget: string, hint: "Ej: frutales" }
 
       - name: flyer
         label: Promoción (flyer)

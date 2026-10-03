@@ -1,0 +1,16 @@
+{
+  "nombre": "Paraguayo Bolsa",
+  "categoria": "Plantas de interior",
+  "precio": 2900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/paraguayo-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 152,
+  "visible": true
+}

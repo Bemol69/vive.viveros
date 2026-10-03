@@ -1,0 +1,16 @@
+{
+  "nombre": "Rododendro",
+  "categoria": "Plantas de exterior",
+  "precio": 32000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1127,
+  "visible": true
+}

@@ -1,14 +1,19 @@
 {
   "nombre": "Anturio",
-  "categoria": "Interior",
+  "categoria": "Plantas de interior",
   "precio": 25000,
   "descripcion": "Anthurium andraeanum de flores rojas brillantes, ejemplares vigorosos seleccionados para coleccionistas. Stock limitado por color.",
   "luz": "Luz indirecta abundante",
   "riego": "Moderado, sin encharcar",
   "etiqueta": "Coleccionistas",
-  "portada": "img/productos/anturio-1.jpg",
-  "fotos": ["img/productos/anturio-2.jpg", "img/productos/anturio-3.jpg"],
+  "portada": "/img/productos/anturio-1.jpg",
+  "fotos": [
+    "/img/productos/anturio-2.jpg",
+    "/img/productos/anturio-3.jpg"
+  ],
   "destacado": false,
   "orden": 2,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

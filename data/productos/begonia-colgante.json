@@ -1,0 +1,16 @@
+{
+  "nombre": "Begonia colgante",
+  "categoria": "Plantas de interior",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/begonia-colgante.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 105,
+  "visible": true
+}

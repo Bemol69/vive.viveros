@@ -1,0 +1,16 @@
+{
+  "nombre": "Cedron M17",
+  "categoria": "Hierbas y huerta",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cedron-m17.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7103,
+  "visible": true
+}

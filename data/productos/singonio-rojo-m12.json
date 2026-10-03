@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio Rojo m12",
+  "categoria": "Plantas de interior",
+  "precio": 7000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-rojo-m12.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 167,
+  "visible": true
+}

@@ -1,14 +1,18 @@
 {
   "nombre": "Azaleas",
-  "categoria": "Flores y exterior",
+  "categoria": "Plantas de exterior",
   "precio": 4900,
   "descripcion": "Llenas de flores en rojo, rosado y fucsia. Dan color a tu jardín o terraza. ¡Ven por la tuya antes de que se agoten!",
   "luz": "Semisombra o sol suave de mañana",
   "riego": "Frecuente, sin encharcar",
   "etiqueta": "Recién llegadas",
-  "portada": "img/productos/azaleas-1.jpg",
-  "fotos": ["img/productos/azaleas-2.jpg"],
+  "portada": "/img/productos/azaleas-1.jpg",
+  "fotos": [
+    "/img/productos/azaleas-2.jpg"
+  ],
   "destacado": false,
   "orden": 4,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

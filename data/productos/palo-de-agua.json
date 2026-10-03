@@ -1,0 +1,16 @@
+{
+  "nombre": "Palo de agua",
+  "categoria": "Plantas de interior",
+  "precio": 15000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/palo-de-agua.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 186,
+  "visible": true
+}

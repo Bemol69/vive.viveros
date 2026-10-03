@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa Mr. JCB Floribunda",
+  "categoria": "Rosas",
+  "precio": 6900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-mr-jcb-floribunda.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4104,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Pothus Marble Queen",
+  "categoria": "Plantas de interior",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pothus-marble-queen.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 176,
+  "visible": true
+}

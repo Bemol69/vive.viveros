@@ -1,0 +1,16 @@
+{
+  "nombre": "Anigozanthos",
+  "categoria": "Plantas de exterior",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/anigozanthos.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1102,
+  "visible": true
+}

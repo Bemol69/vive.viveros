@@ -1,0 +1,16 @@
+{
+  "nombre": "Boldo",
+  "categoria": "Plantas de exterior",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/boldo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1106,
+  "visible": true
+}

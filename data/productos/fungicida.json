@@ -1,0 +1,16 @@
+{
+  "nombre": "Fungicida",
+  "categoria": "Insumos",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/fungicida.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9109,
+  "visible": true
+}

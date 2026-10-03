@@ -6,9 +6,13 @@
   "luz": "Pleno sol",
   "riego": "Regular en verano",
   "etiqueta": "Autorizado SAG",
-  "portada": "img/productos/limonero-1.jpg",
-  "fotos": ["img/productos/limonero-2.jpg"],
+  "portada": "/img/productos/limonero-1.jpg",
+  "fotos": [
+    "/img/productos/limonero-2.jpg"
+  ],
   "destacado": false,
   "orden": 8,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

@@ -1,0 +1,16 @@
+{
+  "nombre": "Leptospermun",
+  "categoria": "Plantas de exterior",
+  "precio": 3900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/leptospermun.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1125,
+  "visible": true
+}

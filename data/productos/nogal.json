@@ -1,0 +1,16 @@
+{
+  "nombre": "Nogal",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/nogal.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2133,
+  "visible": true
+}

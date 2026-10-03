@@ -1,0 +1,16 @@
+{
+  "nombre": "Hibiscos",
+  "categoria": "Plantas de exterior",
+  "precio": 6900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/hibiscos.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1121,
+  "visible": true
+}

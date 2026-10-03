@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de plantas y precios | %%NOMBRE%% · %%CIUDAD%%</title>
+  <meta name="description" content="%%CAT_DESCRIPCION%%">
+  <meta name="theme-color" content="%%COLOR_PAPEL%%">
+  <!-- SEO:HEAD (canonical, Open Graph y datos estructurados: los escribe scripts/build.mjs) -->
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="%%FUENTES_URL%%">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="pag-catalogo">
+  <a class="saltar" href="#productos">Saltar a los productos</a>
+
+  <!-- ===== Anuncio ===== -->
+  <!-- SI:WHATSAPP --><div class="anuncio"><p>Vivero autorizado SAG · Retiro en Salsipuedes<span class="anuncio__extra"> · Despacho a %%ZONAS_TEXTO%%</span> · <a href="%%WA_LINK%%" target="_blank" rel="noopener">Escríbenos al %%WA_NUMERO%%</a></p></div><!-- /SI:WHATSAPP -->
+
+  <!-- ===== Barra superior ===== -->
+  <header class="nav" data-nav>
+    <div class="nav__in">
+      <a class="nav__logo" href="./" aria-label="%%NOMBRE%%, ir al inicio">
+        <img src="img/logo-horizontal.png" alt="%%NOMBRE%%" width="360" height="156">
+      </a>
+      <nav class="nav__links" aria-label="Secciones">
+        <a href="./">Inicio</a>
+        <a href="%%CATALOGO_URL%%" aria-current="page">Catálogo</a>
+        <!-- SI:WHATSAPP --><a href="./#reservar">Cómo comprar</a><!-- /SI:WHATSAPP -->
+        <a href="./#visitanos">Visítanos</a>
+      </nav>
+      <!-- SI:HORARIO --><p class="estado estado--nav" data-estado aria-live="polite"><span class="estado__punto"></span><span data-estado-texto>%%HORARIO_RESUMEN%%</span></p><!-- /SI:HORARIO -->
+      <!-- SI:WHATSAPP --><a class="btn btn--wa btn--sm nav__wa" href="%%WA_LINK%%" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+      <button type="button" class="nav__bolsa" data-abrir-pedido aria-label="Abrir mi pedido"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolsa"/></svg><span class="nav__bolsa-n" data-pedido-n hidden>0</span></button><!-- /SI:WHATSAPP -->
+    </div>
+  </header>
+
+  <main id="productos">
+    <!-- ===== Cabecera del catálogo ===== -->
+    <section class="cat-cabeza">
+      <div class="cat-cabeza__in">
+        <p class="eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>%%DIRECCION_CORTA%%</p>
+        <h1 class="cat-titulo">Todo el vivero, <em>a un toque</em></h1>
+        <p class="cat-bajada">%%CAT_N%% productos con precio y foto. Arma tu pedido, retíralo en el vivero o pide despacho. Te confirmamos todo por WhatsApp.</p>
+        <form class="buscador" role="search" data-buscador>
+          <label class="sr" for="buscar">Buscar en el catálogo</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-buscar"/></svg>
+          <input id="buscar" type="search" name="q" placeholder="Busca limonero, lavanda, macetero…" autocomplete="off" enterkeyhint="search" data-buscar>
+          <button type="button" class="buscador__borrar" data-buscar-borrar aria-label="Borrar búsqueda" hidden>×</button>
+        </form>
+        <ul class="cat-sellos">
+          <!-- SI:SAG --><li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-escudo"/></svg>Vivero autorizado SAG</li><!-- /SI:SAG -->
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tienda"/></svg>Retiro en el vivero</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camion"/></svg>Despacho a %%ZONAS_TEXTO%%</li>
+          <!-- SI:MAYORISTA --><li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-caja"/></svg>Precios por mayor</li><!-- /SI:MAYORISTA -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Categorías y orden (se queda pegada arriba al bajar) ===== -->
+    <div class="cat-barra" data-cat-barra>
+      <div class="cat-barra__in">
+        <div class="chips" role="group" aria-label="Categorías" data-chips><!-- CHIPS --></div>
+        <div class="cat-opciones">
+          <label class="interruptor"><input type="checkbox" data-disponibles><span>Solo disponibles</span></label>
+          <label class="ordenar">
+            <span class="sr">Ordenar por</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-filtro"/></svg>
+            <select data-orden>
+              <option value="relevancia">Destacados</option>
+              <option value="a-z">Nombre A–Z</option>
+              <option value="z-a">Nombre Z–A</option>
+              <option value="precio-asc">Menor precio</option>
+              <option value="precio-desc">Mayor precio</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Productos (escritos por el build: Google los ve; catalogo.js filtra y ordena) ===== -->
+    <section class="cat-cuerpo" aria-labelledby="cat-resultado">
+      <p class="cat-resultado" id="cat-resultado" aria-live="polite" data-resultado>%%CAT_N%% productos</p>
+      <div class="cat-grilla" data-cat-grilla><!-- CAT_PRODUCTOS --></div>
+      <div class="cat-mas" data-cat-mas hidden>
+        <button type="button" class="btn btn--linea" data-ver-mas>Ver más productos</button>
+      </div>
+      <div class="cat-vacio" data-cat-vacio hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-buscar"/></svg>
+        <h2>No encontramos «<span data-vacio-q></span>»</h2>
+        <p>Puede que la tengamos en el vivero y aún no esté en la web. Escríbela en tu pedido y te avisamos.</p>
+        <div class="cat-vacio__cta">
+          <!-- SI:WHATSAPP --><button type="button" class="btn btn--hoja" data-encargar><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolsa"/></svg>Pedir que la busquen</button><!-- /SI:WHATSAPP -->
+          <button type="button" class="btn btn--linea" data-limpiar>Ver todo el catálogo</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Cierre ===== -->
+    <section class="cat-cierre">
+      <div class="cat-cierre__in">
+        <div>
+          <p class="kicker">¿Tienes un negocio o un proyecto grande?</p>
+          <h2>Cotiza por <em>cantidad</em></h2>
+          <p>%%MAYORISTA_O_TEXTO%%</p>
+        </div>
+        <!-- SI:WHATSAPP --><a class="btn btn--wa" href="%%WA_MAYOR%%" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Cotizar por WhatsApp</a><!-- /SI:WHATSAPP -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie__in">
+      <img class="pie__logo" src="img/logo-claro.png" alt="%%NOMBRE%%" width="360" height="156" loading="lazy">
+      <p class="pie__lema">%%LEMA%% · %%CIUDAD%%, %%REGION%%</p>
+      <nav class="pie__links" aria-label="Redes y contacto">
+        <a href="./">Inicio</a>
+        <!-- SI:WHATSAPP --><a href="%%WA_LINK%%" target="_blank" rel="noopener">WhatsApp</a><!-- /SI:WHATSAPP -->
+        <!-- SI:INSTAGRAM --><a href="%%IG_URL%%" target="_blank" rel="noopener">Instagram</a><!-- /SI:INSTAGRAM -->
+      </nav>
+      <p class="pie__legal">© %%ANIO%% %%NOMBRE%% · Precios en pesos chilenos · Web por RunClick Webs</p>
+    </div>
+  </footer>
+
+  <!-- SI:WHATSAPP -->
+  <a class="wa-flota" href="%%WA_LINK%%" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></a>
+  <!-- /SI:WHATSAPP -->
+
+  <!-- PARCIAL:ficha -->
+  <!-- PARCIAL:pedido -->
+  <!-- PARCIAL:iconos -->
+
+  <script>window.SITIO = %%SITIO_JSON%%;</script>
+  <script src="nucleo.js" defer></script>
+  <script src="tienda.js" defer></script>
+  <script src="catalogo.js" defer></script>
+</body>
+</html>

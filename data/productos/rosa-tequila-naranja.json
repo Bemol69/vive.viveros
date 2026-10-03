@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa tequila naranja",
+  "categoria": "Rosas",
+  "precio": 6900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-tequila-naranja.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4111,
+  "visible": true
+}

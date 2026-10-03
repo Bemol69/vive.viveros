@@ -1,0 +1,16 @@
+{
+  "nombre": "Evonimo Variegado",
+  "categoria": "Plantas de exterior",
+  "precio": 5900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/evonimo-variegado.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1117,
+  "visible": true
+}

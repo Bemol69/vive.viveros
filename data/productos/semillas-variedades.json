@@ -1,0 +1,16 @@
+{
+  "nombre": "Semillas variedades",
+  "categoria": "Insumos",
+  "precio": 600,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/semillas-variedades.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9118,
+  "visible": true
+}

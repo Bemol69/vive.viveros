@@ -3,8 +3,10 @@
   "configurations": [
     {
       "name": "viveviveros",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5620", "--directory", "dist"],
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "scripts/servir.mjs"
+      ],
       "port": 5620
     }
   ]

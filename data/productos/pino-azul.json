@@ -1,0 +1,16 @@
+{
+  "nombre": "Pino Azul",
+  "categoria": "Plantas de exterior",
+  "precio": 20000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pino-azul.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1140,
+  "visible": true
+}

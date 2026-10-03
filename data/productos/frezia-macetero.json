@@ -1,0 +1,16 @@
+{
+  "nombre": "Frezia macetero",
+  "categoria": "Plantas de exterior",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/frezia-macetero.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1120,
+  "visible": true
+}

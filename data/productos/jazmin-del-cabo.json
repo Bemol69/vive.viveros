@@ -1,14 +1,18 @@
 {
   "nombre": "Jazmín del Cabo",
-  "categoria": "Flores y exterior",
+  "categoria": "Plantas de exterior",
   "precio": 6000,
   "descripcion": "Gardenia de follaje verde brillante y flores blancas con perfume inconfundible. Ideal para macetas grandes, patios o directo en el jardín.",
   "luz": "Luminoso, sin sol fuerte de tarde",
   "riego": "Regular, sustrato húmedo",
   "etiqueta": "Aromática",
-  "portada": "img/productos/jazmin-del-cabo-1.jpg",
-  "fotos": ["img/productos/jazmin-del-cabo-2.jpg"],
+  "portada": "/img/productos/jazmin-del-cabo-1.jpg",
+  "fotos": [
+    "/img/productos/jazmin-del-cabo-2.jpg"
+  ],
   "destacado": false,
   "orden": 6,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

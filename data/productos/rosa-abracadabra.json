@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa abracadabra",
+  "categoria": "Rosas",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4120,
+  "visible": true
+}

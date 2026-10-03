@@ -1,0 +1,16 @@
+{
+  "nombre": "Jardinera",
+  "categoria": "Maceteros",
+  "precio": 2300,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/jardinera.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8104,
+  "visible": true
+}

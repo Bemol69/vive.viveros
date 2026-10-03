@@ -1,0 +1,16 @@
+{
+  "nombre": "Alhelí",
+  "categoria": "Plantas de temporada",
+  "precio": 750,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/alheli.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 6102,
+  "visible": true
+}

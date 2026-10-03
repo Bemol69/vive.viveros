@@ -1,0 +1,16 @@
+{
+  "nombre": "Gomero Café Bolsa",
+  "categoria": "Plantas de interior",
+  "precio": 3900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/gomero-cafe-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 138,
+  "visible": true
+}

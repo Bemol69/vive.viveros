@@ -1,0 +1,16 @@
+{
+  "nombre": "Diosma",
+  "categoria": "Plantas de exterior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/diosma.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1115,
+  "visible": true
+}

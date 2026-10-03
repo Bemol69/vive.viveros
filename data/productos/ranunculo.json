@@ -1,0 +1,16 @@
+{
+  "nombre": "Ranunculo",
+  "categoria": "Plantas de interior",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ranunculo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 175,
+  "visible": true
+}

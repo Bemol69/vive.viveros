@@ -1,0 +1,16 @@
+{
+  "nombre": "Ave Paraíso",
+  "categoria": "Plantas de exterior",
+  "precio": 9500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ave-paraiso.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1104,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa trepadora",
+  "categoria": "Rosas",
+  "precio": 12000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-trepadora.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4113,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Calathea Northen Lights",
+  "categoria": "Colección",
+  "precio": 7000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/calathea-northen-lights.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 5102,
+  "visible": true
+}

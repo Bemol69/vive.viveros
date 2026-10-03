@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero LH322",
+  "categoria": "Maceteros",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-lh322.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8158,
+  "visible": true
+}

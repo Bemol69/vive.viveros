@@ -1,0 +1,16 @@
+{
+  "nombre": "Ficus Grande",
+  "categoria": "Plantas de interior",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ficus-grande.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 133,
+  "visible": true
+}

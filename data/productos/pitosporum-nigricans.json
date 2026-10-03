@@ -1,0 +1,16 @@
+{
+  "nombre": "Pitosporum Nigricans",
+  "categoria": "Plantas de exterior",
+  "precio": 8900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pitosporum-nigricans.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1128,
+  "visible": true
+}

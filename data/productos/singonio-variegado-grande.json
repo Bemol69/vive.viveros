@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio variegado grande",
+  "categoria": "Plantas de interior",
+  "precio": 8900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-variegado-grande.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 164,
+  "visible": true
+}

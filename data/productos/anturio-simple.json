@@ -1,0 +1,16 @@
+{
+  "nombre": "Anturio simple",
+  "categoria": "Plantas de interior",
+  "precio": 10900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 159,
+  "visible": true
+}

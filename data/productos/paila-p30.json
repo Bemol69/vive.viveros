@@ -1,0 +1,16 @@
+{
+  "nombre": "Paila P30",
+  "categoria": "Maceteros",
+  "precio": 1200,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/paila-p30.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8136,
+  "visible": true
+}

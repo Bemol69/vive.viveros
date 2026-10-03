@@ -1,0 +1,16 @@
+{
+  "nombre": "Aralia variegada",
+  "categoria": "Plantas de interior",
+  "precio": 8900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/aralia-variegada.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 150,
+  "visible": true
+}

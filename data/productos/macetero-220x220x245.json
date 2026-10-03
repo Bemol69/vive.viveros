@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero 220x220x245",
+  "categoria": "Maceteros",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-220x220x245.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8110,
+  "visible": true
+}

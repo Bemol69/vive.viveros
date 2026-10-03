@@ -1,0 +1,16 @@
+{
+  "nombre": "Crespones Grandes",
+  "categoria": "Árboles",
+  "precio": 55000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/crespones-grandes.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3106,
+  "visible": true
+}

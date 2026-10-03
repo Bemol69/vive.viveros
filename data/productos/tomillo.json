@@ -1,0 +1,16 @@
+{
+  "nombre": "Tomillo",
+  "categoria": "Hierbas y huerta",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/tomillo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7113,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Orejas de osos",
+  "categoria": "Plantas de temporada",
+  "precio": 650,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/orejas-de-osos.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 6105,
+  "visible": true
+}

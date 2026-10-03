@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero 5l",
+  "categoria": "Maceteros",
+  "precio": 1000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-5l.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8112,
+  "visible": true
+}

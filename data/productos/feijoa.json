@@ -1,0 +1,16 @@
+{
+  "nombre": "Feijoa",
+  "categoria": "Frutales",
+  "precio": 9000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/feijoa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2113,
+  "visible": true
+}

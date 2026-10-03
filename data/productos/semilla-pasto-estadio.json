@@ -1,0 +1,16 @@
+{
+  "nombre": "Semilla Pasto Estadio",
+  "categoria": "Insumos",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/semilla-pasto-estadio.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9117,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Fertilizante Rosas",
+  "categoria": "Insumos",
+  "precio": 2000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/fertilizante-rosas.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9108,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa púrpura peonia perfumada",
+  "categoria": "Rosas",
+  "precio": 6900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-purpura-peonia-perfumada.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4109,
+  "visible": true
+}

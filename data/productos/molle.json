@@ -1,0 +1,16 @@
+{
+  "nombre": "Molle",
+  "categoria": "Árboles",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3112,
+  "visible": true
+}

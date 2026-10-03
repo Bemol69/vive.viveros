@@ -1,0 +1,16 @@
+{
+  "nombre": "Kalanchoe Pumilla",
+  "categoria": "Plantas de exterior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/kalanchoe-pumilla.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1123,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Zapallo italiano",
+  "categoria": "Hierbas y huerta",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/zapallo-italiano.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7116,
+  "visible": true
+}

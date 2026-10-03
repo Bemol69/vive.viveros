@@ -6,9 +6,11 @@
   "luz": "Pleno sol, protegido de heladas",
   "riego": "Profundo y espaciado",
   "etiqueta": "Autorizado SAG",
-  "portada": "img/productos/palto-1.jpg",
+  "portada": "/img/productos/palto-1.jpg",
   "fotos": [],
   "destacado": false,
   "orden": 7,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

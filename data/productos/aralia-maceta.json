@@ -1,0 +1,16 @@
+{
+  "nombre": "Aralia Maceta",
+  "categoria": "Plantas de interior",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/aralia-maceta.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 104,
+  "visible": true
+}

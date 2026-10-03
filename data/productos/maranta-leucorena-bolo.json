@@ -1,0 +1,16 @@
+{
+  "nombre": "Maranta leucorena bolo",
+  "categoria": "Otros",
+  "precio": 8900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/maranta-leucorena-bolo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10101,
+  "visible": true
+}

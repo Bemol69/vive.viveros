@@ -1,0 +1,16 @@
+{
+  "nombre": "Evonymus",
+  "categoria": "Plantas de exterior",
+  "precio": 5000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/evonymus.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1118,
+  "visible": true
+}

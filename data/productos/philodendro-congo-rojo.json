@@ -1,0 +1,16 @@
+{
+  "nombre": "Philodendro Congo Rojo",
+  "categoria": "Plantas de interior",
+  "precio": 9000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/philodendro-congo-rojo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 181,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Begonia Rex",
+  "categoria": "Plantas de interior",
+  "precio": 5900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/begonia-rex.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 106,
+  "visible": true
+}

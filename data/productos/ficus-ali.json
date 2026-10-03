@@ -1,0 +1,16 @@
+{
+  "nombre": "Ficus ali",
+  "categoria": "Plantas de interior",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ficus-ali.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 131,
+  "visible": true
+}

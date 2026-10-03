@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio vena roja",
+  "categoria": "Plantas de interior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-vena-roja.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 163,
+  "visible": true
+}

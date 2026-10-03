@@ -1,0 +1,16 @@
+{
+  "nombre": "Dólar limón",
+  "categoria": "Plantas de interior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/dolar-limon.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 125,
+  "visible": true
+}

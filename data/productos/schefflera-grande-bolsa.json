@@ -1,0 +1,16 @@
+{
+  "nombre": "Schefflera grande bolsa",
+  "categoria": "Plantas de interior",
+  "precio": 5000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/schefflera-grande-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 171,
+  "visible": true
+}

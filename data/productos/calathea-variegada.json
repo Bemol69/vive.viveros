@@ -1,0 +1,16 @@
+{
+  "nombre": "Calathea variegada",
+  "categoria": "Plantas de interior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/calathea-variegada.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 112,
+  "visible": true
+}

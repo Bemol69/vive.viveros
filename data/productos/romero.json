@@ -1,0 +1,16 @@
+{
+  "nombre": "Romero",
+  "categoria": "Hierbas y huerta",
+  "precio": 1000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/romero.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7109,
+  "visible": true
+}

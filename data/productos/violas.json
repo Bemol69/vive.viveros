@@ -1,0 +1,16 @@
+{
+  "nombre": "Violas",
+  "categoria": "Plantas de temporada",
+  "precio": 650,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/violas.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 6101,
+  "visible": true
+}

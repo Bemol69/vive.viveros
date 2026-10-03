@@ -1,0 +1,16 @@
+{
+  "nombre": "P01-8B",
+  "categoria": "Maceteros",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/p01-8b.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8138,
+  "visible": true
+}

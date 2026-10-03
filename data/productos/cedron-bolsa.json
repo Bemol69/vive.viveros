@@ -1,0 +1,16 @@
+{
+  "nombre": "Cedrón Bolsa",
+  "categoria": "Hierbas y huerta",
+  "precio": 3900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cedron-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7102,
+  "visible": true
+}

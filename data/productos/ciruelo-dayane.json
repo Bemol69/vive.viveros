@@ -1,0 +1,16 @@
+{
+  "nombre": "Ciruelo Dayane",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ciruelo-dayane.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2105,
+  "visible": true
+}

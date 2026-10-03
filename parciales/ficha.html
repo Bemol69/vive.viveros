@@ -1,0 +1,26 @@
+  <!-- ===== Ficha de producto (la llena tienda.js) ===== -->
+  <dialog class="ficha" data-ficha aria-labelledby="ficha-nombre">
+    <div class="ficha__in">
+      <button type="button" class="ficha__cerrar" data-cerrar aria-label="Cerrar">×</button>
+      <div class="ficha__galeria">
+        <img class="ficha__foto" data-ficha-foto alt="">
+        <div class="ficha__miniaturas" data-ficha-minis></div>
+      </div>
+      <div class="ficha__info">
+        <p class="kicker" data-ficha-cat></p>
+        <h3 id="ficha-nombre" data-ficha-nombre></h3>
+        <p class="ficha__precio" data-ficha-precio></p>
+        <p class="ficha__agotado" data-ficha-estado hidden>Agotado por ahora · pregúntanos cuándo llega</p>
+        <p class="ficha__desc" data-ficha-desc></p>
+        <dl class="ficha__cuidados" data-ficha-cuidados>
+          <div data-ficha-luz><dt>Luz</dt><dd></dd></div>
+          <div data-ficha-riego><dt>Riego</dt><dd></dd></div>
+        </dl>
+        <div class="ficha__acciones">
+          <!-- SI:WHATSAPP --><button type="button" class="btn btn--hoja" data-ficha-agregar><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolsa"/></svg><span>Agregar al pedido</span></button><!-- /SI:WHATSAPP -->
+          <a class="link" data-ficha-wa href="#" target="_blank" rel="noopener"><span data-ficha-wa-texto>Preguntar por WhatsApp</span> <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+          <button type="button" class="link link--boton" data-ficha-compartir><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-compartir"/></svg><span>Compartir</span></button>
+        </div>
+      </div>
+    </div>
+  </dialog>

@@ -1,0 +1,16 @@
+{
+  "nombre": "Lantana",
+  "categoria": "Plantas de exterior",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/lantana.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1149,
+  "visible": true
+}

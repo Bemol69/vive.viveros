@@ -1,0 +1,16 @@
+{
+  "nombre": "Cucharita chica",
+  "categoria": "Otros",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10105,
+  "visible": true
+}

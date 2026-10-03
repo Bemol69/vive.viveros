@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosario",
+  "categoria": "Plantas de interior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosario.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 174,
+  "visible": true
+}

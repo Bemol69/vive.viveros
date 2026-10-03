@@ -1,0 +1,16 @@
+{
+  "nombre": "Monstera Oblicua",
+  "categoria": "Plantas de interior",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/monstera-oblicua.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 154,
+  "visible": true
+}

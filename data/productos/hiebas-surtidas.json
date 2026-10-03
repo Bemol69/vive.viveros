@@ -1,0 +1,16 @@
+{
+  "nombre": "Hiebas surtidas",
+  "categoria": "Otros",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10107,
+  "visible": true
+}

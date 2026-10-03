@@ -1,0 +1,16 @@
+{
+  "nombre": "Clavelina",
+  "categoria": "Plantas de temporada",
+  "precio": 750,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/clavelina.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 6103,
+  "visible": true
+}

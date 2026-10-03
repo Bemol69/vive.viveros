@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio Rosado",
+  "categoria": "Plantas de interior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-rosado.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 166,
+  "visible": true
+}

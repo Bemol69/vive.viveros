@@ -1,0 +1,16 @@
+{
+  "nombre": "Viadil",
+  "categoria": "Hierbas y huerta",
+  "precio": 800,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/viadil.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7114,
+  "visible": true
+}

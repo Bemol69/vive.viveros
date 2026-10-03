@@ -1,0 +1,16 @@
+{
+  "nombre": "Rayos de sol bolo",
+  "categoria": "Plantas de exterior",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rayos-de-sol-bolo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1138,
+  "visible": true
+}

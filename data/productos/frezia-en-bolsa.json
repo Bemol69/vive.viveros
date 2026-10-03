@@ -1,0 +1,16 @@
+{
+  "nombre": "Frezia en bolsa",
+  "categoria": "Plantas de exterior",
+  "precio": 2000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/frezia-en-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1119,
+  "visible": true
+}

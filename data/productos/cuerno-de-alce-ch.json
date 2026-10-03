@@ -1,0 +1,16 @@
+{
+  "nombre": "Cuerno de alce ch",
+  "categoria": "Plantas de interior",
+  "precio": 7900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cuerno-de-alce-ch.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 121,
+  "visible": true
+}

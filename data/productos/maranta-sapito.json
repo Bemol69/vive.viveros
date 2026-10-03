@@ -1,0 +1,16 @@
+{
+  "nombre": "Maranta Sapito",
+  "categoria": "Plantas de interior",
+  "precio": 5000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/maranta-sapito.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 155,
+  "visible": true
+}

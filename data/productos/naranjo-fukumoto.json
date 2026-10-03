@@ -1,0 +1,16 @@
+{
+  "nombre": "Naranjo Fukumoto",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/naranjo-fukumoto.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2137,
+  "visible": true
+}

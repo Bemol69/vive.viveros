@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa Pie Bajo",
+  "categoria": "Rosas",
+  "precio": 8900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-pie-bajo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4108,
+  "visible": true
+}

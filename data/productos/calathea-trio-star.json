@@ -1,0 +1,16 @@
+{
+  "nombre": "Calathea trio star",
+  "categoria": "Plantas de interior",
+  "precio": 19900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/calathea-trio-star.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 111,
+  "visible": true
+}

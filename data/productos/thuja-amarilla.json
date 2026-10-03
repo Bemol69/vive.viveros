@@ -1,0 +1,16 @@
+{
+  "nombre": "Thuja amarilla",
+  "categoria": "Plantas de exterior",
+  "precio": 25000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/thuja-amarilla.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1134,
+  "visible": true
+}

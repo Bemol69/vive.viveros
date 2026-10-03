@@ -1,0 +1,16 @@
+{
+  "nombre": "Cordathum verde",
+  "categoria": "Plantas de interior",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/cordathum-verde.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 118,
+  "visible": true
+}

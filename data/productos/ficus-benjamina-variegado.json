@@ -1,0 +1,16 @@
+{
+  "nombre": "Ficus Benjamina Variegado",
+  "categoria": "Plantas de interior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ficus-benjamina-variegado.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 132,
+  "visible": true
+}

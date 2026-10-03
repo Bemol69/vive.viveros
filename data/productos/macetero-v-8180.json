@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero V-8180",
+  "categoria": "Maceteros",
+  "precio": 2900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-v-8180.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8126,
+  "visible": true
+}

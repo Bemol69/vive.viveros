@@ -1,0 +1,16 @@
+{
+  "nombre": "Fertilizante hortensias",
+  "categoria": "Insumos",
+  "precio": 2900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/fertilizante-hortensias.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9106,
+  "visible": true
+}

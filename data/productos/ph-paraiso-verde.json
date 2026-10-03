@@ -1,0 +1,16 @@
+{
+  "nombre": "Ph Paraíso Verde",
+  "categoria": "Plantas de interior",
+  "precio": 8900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ph-paraiso-verde.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 182,
+  "visible": true
+}

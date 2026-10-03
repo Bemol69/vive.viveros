@@ -1,0 +1,16 @@
+{
+  "nombre": "Clivia",
+  "categoria": "Plantas de interior",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/clivia.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 116,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N28",
+  "categoria": "Maceteros",
+  "precio": 1300,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n28.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8148,
+  "visible": true
+}

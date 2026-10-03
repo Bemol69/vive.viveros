@@ -1,0 +1,16 @@
+{
+  "nombre": "Durazno conservero Dr Davis",
+  "categoria": "Frutales",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/durazno-conservero-dr-davis.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2111,
+  "visible": true
+}

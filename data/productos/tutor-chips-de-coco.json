@@ -1,0 +1,17 @@
+{
+  "nombre": "Tutor chips de coco",
+  "categoria": "Insumos",
+  "precio": 4500,
+  "precio_mayor": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/tutor-chips-de-coco.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9125,
+  "visible": true
+}

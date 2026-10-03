@@ -1,0 +1,16 @@
+{
+  "nombre": "Perlita",
+  "categoria": "Insumos",
+  "precio": 1600,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/perlita.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9115,
+  "visible": true
+}

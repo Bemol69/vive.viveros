@@ -1,0 +1,16 @@
+{
+  "nombre": "Higueras grandes",
+  "categoria": "Frutales",
+  "precio": 15000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/higueras-grandes.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2117,
+  "visible": true
+}

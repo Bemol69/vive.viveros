@@ -1,0 +1,16 @@
+{
+  "nombre": "Passiflora",
+  "categoria": "Plantas de exterior",
+  "precio": 8500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/passiflora.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1142,
+  "visible": true
+}

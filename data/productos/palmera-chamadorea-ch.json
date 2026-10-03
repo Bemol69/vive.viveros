@@ -1,0 +1,16 @@
+{
+  "nombre": "Palmera Chamadorea Ch",
+  "categoria": "Plantas de interior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/palmera-chamadorea-ch.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 187,
+  "visible": true
+}

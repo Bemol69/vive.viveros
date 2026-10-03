@@ -1,0 +1,16 @@
+{
+  "nombre": "Olivo",
+  "categoria": "Frutales",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/olivo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2132,
+  "visible": true
+}

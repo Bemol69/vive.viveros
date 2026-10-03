@@ -1,0 +1,16 @@
+{
+  "nombre": "Sacos tierra compost y perlita",
+  "categoria": "Insumos",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/sacos-tierra-compost-y-perlita.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9116,
+  "visible": true
+}

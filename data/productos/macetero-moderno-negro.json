@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero moderno negro",
+  "categoria": "Maceteros",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-moderno-negro.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8131,
+  "visible": true
+}

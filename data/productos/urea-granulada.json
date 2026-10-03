@@ -1,0 +1,16 @@
+{
+  "nombre": "Urea granulada",
+  "categoria": "Insumos",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/urea-granulada.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9126,
+  "visible": true
+}

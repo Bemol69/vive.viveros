@@ -1,0 +1,16 @@
+{
+  "nombre": "Sustrato Cactus y Suculentas",
+  "categoria": "Insumos",
+  "precio": 2000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/sustrato-cactus-y-suculentas.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9121,
+  "visible": true
+}

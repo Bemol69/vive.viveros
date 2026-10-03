@@ -1,0 +1,16 @@
+{
+  "nombre": "Ligustro",
+  "categoria": "Plantas de exterior",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ligustro.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1147,
+  "visible": true
+}

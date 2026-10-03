@@ -1,0 +1,16 @@
+{
+  "nombre": "Pothus Bolo",
+  "categoria": "Plantas de interior",
+  "precio": 9000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pothus-bolo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 151,
+  "visible": true
+}

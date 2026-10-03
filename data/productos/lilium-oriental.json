@@ -1,0 +1,16 @@
+{
+  "nombre": "Lilium Oriental",
+  "categoria": "Plantas de exterior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/lilium-oriental.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1129,
+  "visible": true
+}

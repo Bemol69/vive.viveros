@@ -1,0 +1,16 @@
+{
+  "nombre": "Clavel",
+  "categoria": "Plantas de exterior",
+  "precio": 3900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/clavel.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1111,
+  "visible": true
+}

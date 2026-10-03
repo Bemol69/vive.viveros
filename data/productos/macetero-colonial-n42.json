@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Colonial N42",
+  "categoria": "Maceteros",
+  "precio": 6500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-colonial-n42.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8123,
+  "visible": true
+}

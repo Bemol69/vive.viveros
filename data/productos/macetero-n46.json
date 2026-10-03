@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero N46",
+  "categoria": "Maceteros",
+  "precio": 6900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-n46.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8145,
+  "visible": true
+}

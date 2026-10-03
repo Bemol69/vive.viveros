@@ -1,0 +1,16 @@
+{
+  "nombre": "Ruda M15",
+  "categoria": "Hierbas y huerta",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ruda-m15.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 7111,
+  "visible": true
+}

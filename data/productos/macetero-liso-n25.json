@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N25",
+  "categoria": "Maceteros",
+  "precio": 900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n25.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8156,
+  "visible": true
+}

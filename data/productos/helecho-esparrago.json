@@ -1,0 +1,16 @@
+{
+  "nombre": "Helecho espárrago",
+  "categoria": "Plantas de interior",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/helecho-esparrago.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 141,
+  "visible": true
+}

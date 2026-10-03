@@ -1,0 +1,16 @@
+{
+  "nombre": "Tulipero",
+  "categoria": "Árboles",
+  "precio": 23000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/tulipero.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3119,
+  "visible": true
+}

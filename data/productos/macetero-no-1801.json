@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero No 1801",
+  "categoria": "Maceteros",
+  "precio": 3000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-no-1801.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8144,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Laurentina Bolsa",
+  "categoria": "Plantas de interior",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/laurentina-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 146,
+  "visible": true
+}

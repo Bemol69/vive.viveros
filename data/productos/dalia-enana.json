@@ -1,0 +1,16 @@
+{
+  "nombre": "Dalia Enana",
+  "categoria": "Plantas de exterior",
+  "precio": 1000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/dalia-enana.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1131,
+  "visible": true
+}

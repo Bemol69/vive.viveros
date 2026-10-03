@@ -1,0 +1,16 @@
+{
+  "nombre": "Clepia Variegada",
+  "categoria": "Plantas de interior",
+  "precio": 16900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/clepia-variegada.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 115,
+  "visible": true
+}

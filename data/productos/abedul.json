@@ -1,0 +1,16 @@
+{
+  "nombre": "Abedul",
+  "categoria": "Árboles",
+  "precio": 23000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/abedul.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3101,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Pino limón",
+  "categoria": "Plantas de exterior",
+  "precio": 10000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/pino-limon.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1139,
+  "visible": true
+}

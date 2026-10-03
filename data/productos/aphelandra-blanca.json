@@ -1,0 +1,16 @@
+{
+  "nombre": "Aphelandra blanca",
+  "categoria": "Plantas de interior",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/aphelandra-blanca.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 103,
+  "visible": true
+}

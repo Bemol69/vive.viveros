@@ -1,0 +1,16 @@
+{
+  "nombre": "Peumo",
+  "categoria": "Árboles",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/peumo.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3114,
+  "visible": true
+}

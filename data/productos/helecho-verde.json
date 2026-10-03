@@ -1,0 +1,16 @@
+{
+  "nombre": "Helecho Verde",
+  "categoria": "Plantas de interior",
+  "precio": 4900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/helecho-verde.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 143,
+  "visible": true
+}

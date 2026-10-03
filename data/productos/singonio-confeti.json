@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio Confeti",
+  "categoria": "Plantas de interior",
+  "precio": 7000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-confeti.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 170,
+  "visible": true
+}

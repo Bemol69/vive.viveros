@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio enano m10",
+  "categoria": "Plantas de interior",
+  "precio": 5600,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-enano-m10.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 169,
+  "visible": true
+}

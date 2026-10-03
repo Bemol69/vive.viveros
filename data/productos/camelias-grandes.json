@@ -1,0 +1,16 @@
+{
+  "nombre": "Camelias Grandes",
+  "categoria": "Plantas de exterior",
+  "precio": 30000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/camelias-grandes.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1109,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Tierra compost",
+  "categoria": "Insumos",
+  "precio": 900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/tierra-compost.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9122,
+  "visible": true
+}

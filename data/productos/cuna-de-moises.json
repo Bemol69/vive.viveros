@@ -1,14 +1,18 @@
 {
   "nombre": "Cuna de Moisés",
-  "categoria": "Interior",
+  "categoria": "Plantas de interior",
   "precio": 7900,
   "descripcion": "Spathiphyllum de hojas verde oscuro y flores blancas. Purifica el aire, es fácil de cuidar y no necesita sol directo.",
   "luz": "Interior, sin sol directo",
   "riego": "Mantener el sustrato apenas húmedo",
   "etiqueta": "",
-  "portada": "img/productos/cuna-de-moises-1.jpg",
-  "fotos": ["img/productos/cuna-de-moises-2.jpg"],
+  "portada": "/img/productos/cuna-de-moises-1.jpg",
+  "fotos": [
+    "/img/productos/cuna-de-moises-2.jpg"
+  ],
   "destacado": false,
   "orden": 3,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

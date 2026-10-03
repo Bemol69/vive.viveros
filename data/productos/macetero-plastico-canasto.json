@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero plástico canasto",
+  "categoria": "Maceteros",
+  "precio": 1000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-plastico-canasto.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8130,
+  "visible": true
+}

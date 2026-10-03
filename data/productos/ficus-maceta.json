@@ -1,0 +1,16 @@
+{
+  "nombre": "Ficus Maceta",
+  "categoria": "Plantas de interior",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ficus-maceta.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 135,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Fertilizante Orquídeas 500cc",
+  "categoria": "Insumos",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/fertilizante-orquideas-500cc.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9107,
+  "visible": true
+}

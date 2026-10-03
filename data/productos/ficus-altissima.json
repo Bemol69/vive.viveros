@@ -1,0 +1,16 @@
+{
+  "nombre": "Ficus altissima",
+  "categoria": "Colección",
+  "precio": 9000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/ficus-altissima.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 5104,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio Oreja de ratón",
+  "categoria": "Otros",
+  "precio": 5000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10109,
+  "visible": true
+}

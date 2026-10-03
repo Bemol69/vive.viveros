@@ -1,0 +1,16 @@
+{
+  "nombre": "Schefflera bolsa",
+  "categoria": "Plantas de interior",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/schefflera-bolsa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 172,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa Harry Poter trepadora",
+  "categoria": "Rosas",
+  "precio": 7900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-harry-poter-trepadora.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4103,
+  "visible": true
+}

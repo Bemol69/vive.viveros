@@ -1,0 +1,37 @@
+{
+  "categorias": [
+    {
+      "nombre": "Plantas de interior"
+    },
+    {
+      "nombre": "Plantas de exterior"
+    },
+    {
+      "nombre": "Frutales"
+    },
+    {
+      "nombre": "Árboles"
+    },
+    {
+      "nombre": "Rosas"
+    },
+    {
+      "nombre": "Colección"
+    },
+    {
+      "nombre": "Plantas de temporada"
+    },
+    {
+      "nombre": "Hierbas y huerta"
+    },
+    {
+      "nombre": "Maceteros"
+    },
+    {
+      "nombre": "Insumos"
+    },
+    {
+      "nombre": "Otros"
+    }
+  ]
+}

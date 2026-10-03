@@ -1,0 +1,16 @@
+{
+  "nombre": "Crespón maceta",
+  "categoria": "Árboles",
+  "precio": 20000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/crespon-maceta.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 3105,
+  "visible": true
+}

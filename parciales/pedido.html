@@ -1,0 +1,99 @@
+  <!-- ===== Tu pedido (carrito + datos de entrega → WhatsApp) ===== -->
+  <!-- SI:WHATSAPP -->
+  <dialog class="pedido" data-pedido aria-labelledby="pedido-titulo">
+    <div class="pedido__panel">
+      <header class="pedido__head">
+        <div>
+          <h2 id="pedido-titulo">Tu pedido</h2>
+          <p class="pedido__sub" data-pedido-sub>Aún no agregas productos</p>
+        </div>
+        <button type="button" class="ficha__cerrar pedido__cerrar" data-cerrar aria-label="Cerrar">×</button>
+      </header>
+
+      <div class="pedido__cuerpo">
+        <div class="pedido__vacio" data-pedido-vacio>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolsa"/></svg>
+          <p>Tu pedido está vacío. Agrega productos del vivero o escribe aquí abajo lo que buscas.</p>
+          <a class="btn btn--linea btn--sm" href="%%CATALOGO_URL%%" data-cerrar>Ver catálogo</a>
+        </div>
+        <ul class="pedido__lista" data-pedido-lista></ul>
+
+        <form class="checkout" id="pedido-form" data-checkout novalidate>
+          <details class="encargo" data-encargo>
+            <summary>¿Buscas otra planta o más cantidad? <strong>Escríbela</strong></summary>
+            <textarea name="encargo" rows="2" placeholder="Ej: 20 lavandas para cerco · un olivo grande"></textarea>
+          </details>
+
+          <p class="checkout__paso"><span>1</span> Tus datos</p>
+          <div class="campo">
+            <label for="p-nombre">Nombre y apellido</label>
+            <input id="p-nombre" name="nombre" autocomplete="name" placeholder="Ej: Camila Rojas">
+            <small class="campo__error">Escribe tu nombre para saber cómo saludarte.</small>
+          </div>
+          <div class="seg seg--2" role="radiogroup" aria-label="Tipo de compra">
+            <label><input type="radio" name="compra" value="Para mí (al detalle)" checked><span><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-brote"/></svg>Para mí</span></label>
+            <label><input type="radio" name="compra" value="Por mayor (tengo negocio)"><span><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-caja"/></svg>Por mayor</span></label>
+          </div>
+
+          <p class="checkout__paso"><span>2</span> Entrega</p>
+          <div class="seg seg--2" role="radiogroup" aria-label="Tipo de entrega">
+            <label><input type="radio" name="entrega" value="retiro" checked><span><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tienda"/></svg>Retiro en el vivero</span></label>
+            <label><input type="radio" name="entrega" value="despacho"><span><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camion"/></svg>Despacho</span></label>
+          </div>
+          <!-- SI:DIRECCION --><p class="checkout__nota" data-solo="retiro"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg><span>%%DIRECCION_TEXTO%%<!-- SI:REFERENCIA --> · %%REFERENCIA%%<!-- /SI:REFERENCIA --></span></p><!-- /SI:DIRECCION -->
+          <div class="checkout__envio" data-solo="despacho" hidden>
+            <div class="campo">
+              <label for="p-comuna">Comuna</label>
+              <select id="p-comuna" name="comuna">
+                <option value="">Elige tu comuna</option>
+                <!-- ZONAS -->
+                <option>Otra comuna</option>
+              </select>
+              <small class="campo__error">Elige la comuna del despacho.</small>
+            </div>
+            <div class="campo">
+              <label for="p-direccion">Dirección de entrega</label>
+              <input id="p-direccion" name="direccion" autocomplete="street-address" placeholder="Calle, número, sector o parcela">
+              <small class="campo__error">Escribe la dirección para cotizar el despacho.</small>
+            </div>
+            <p class="checkout__nota"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camion"/></svg><span>El valor del despacho te lo confirmamos por WhatsApp según la comuna y el tamaño de las plantas.</span></p>
+          </div>
+
+          <p class="checkout__paso"><span>3</span> Pago</p>
+          <div class="seg seg--pago" role="radiogroup" aria-label="Medio de pago"><!-- PAGOS --></div>
+          <div class="campo">
+            <label for="p-nota">Comentario <small>(opcional)</small></label>
+            <input id="p-nota" name="nota" placeholder="Ej: voy el sábado en la mañana, es para regalo…">
+          </div>
+
+          <div class="vista">
+            <p class="vista__titulo">Así llegará tu mensaje</p>
+            <pre class="vista__texto" data-pedido-vista></pre>
+          </div>
+        </form>
+
+        <div class="pedido__listo" data-pedido-listo hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>
+          <h3>¡Pedido listo para enviar!</h3>
+          <p>Abrimos WhatsApp con tu pedido <strong data-pedido-codigo></strong>. Solo falta que toques «Enviar» allá. Te respondemos con disponibilidad y el total final.</p>
+          <a class="btn btn--wa" data-pedido-reabrir href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Abrir WhatsApp de nuevo</a>
+          <button type="button" class="btn btn--linea btn--sm" data-cerrar>Seguir viendo plantas</button>
+        </div>
+      </div>
+
+      <footer class="pedido__pie" data-pedido-pie>
+        <div class="pedido__total"><span data-pedido-total-label>Total</span><strong data-pedido-total>—</strong></div>
+        <p class="pedido__ayuda" data-pedido-ayuda>Te confirmamos stock y total por WhatsApp antes de pagar.</p>
+        <p class="pedido__error" data-pedido-error role="alert" hidden></p>
+        <!-- SI:PAGO_ONLINE --><button class="btn btn--tinta pedido__pagar" type="button" data-pagar hidden><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tarjeta"/></svg>Pagar ahora con tarjeta</button><!-- /SI:PAGO_ONLINE -->
+        <button class="btn btn--wa pedido__enviar" type="submit" form="pedido-form"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Enviar pedido por WhatsApp</button>
+        <p class="pedido__legal">Se abre WhatsApp al %%WA_NUMERO%%. Nada se envía hasta que tú lo mandes.</p>
+      </footer>
+    </div>
+  </dialog>
+  <!-- /SI:WHATSAPP -->
+
+  <!-- SI:WHATSAPP -->
+  <button type="button" class="bolsa-flota" data-abrir-pedido data-flota hidden><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolsa"/></svg><span>Mi pedido (<b data-pedido-n>0</b>) · <b data-pedido-total>$0</b></span></button>
+  <div class="aviso" data-aviso role="status" aria-live="polite" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg><span data-aviso-texto></span><button type="button" data-abrir-pedido>Ver pedido</button></div>
+  <!-- /SI:WHATSAPP -->

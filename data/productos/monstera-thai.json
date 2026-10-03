@@ -1,14 +1,16 @@
 {
   "nombre": "Monstera Thai Constellation",
-  "categoria": "Interior",
+  "categoria": "Colección",
   "precio": 25000,
   "descripcion": "La monstera de colección: hojas grandes con manchas crema, como un cielo estrellado. Maceta N°15. Pocas unidades disponibles.",
   "luz": "Mucha luz, sin sol directo",
   "riego": "Cuando el sustrato se seque en la superficie",
   "etiqueta": "Pocas unidades",
-  "portada": "img/productos/monstera-thai-1.jpg",
+  "portada": "/img/productos/monstera-thai-1.jpg",
   "fotos": [],
   "destacado": true,
   "orden": 1,
-  "visible": true
+  "visible": true,
+  "inicio": true,
+  "agotado": false
 }

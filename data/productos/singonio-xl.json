@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio XL",
+  "categoria": "Plantas de interior",
+  "precio": 6500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-xl.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 162,
+  "visible": true
+}

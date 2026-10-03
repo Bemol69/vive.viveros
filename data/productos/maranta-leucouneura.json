@@ -1,0 +1,16 @@
+{
+  "nombre": "Maranta leucouneura",
+  "categoria": "Plantas de interior",
+  "precio": 5500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/maranta-leucouneura.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 193,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Helecho Manito",
+  "categoria": "Plantas de interior",
+  "precio": 5000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/helecho-manito.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 142,
+  "visible": true
+}

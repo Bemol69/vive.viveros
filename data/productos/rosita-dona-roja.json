@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosita Doña Roja",
+  "categoria": "Rosas",
+  "precio": 8000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosita-dona-roja.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4117,
+  "visible": true
+}

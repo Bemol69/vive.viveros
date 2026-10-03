@@ -1,0 +1,16 @@
+{
+  "nombre": "P01-8C",
+  "categoria": "Maceteros",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/p01-8c.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8125,
+  "visible": true
+}

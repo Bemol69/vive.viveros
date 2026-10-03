@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N21",
+  "categoria": "Maceteros",
+  "precio": 650,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n21.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8154,
+  "visible": true
+}

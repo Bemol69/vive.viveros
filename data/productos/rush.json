@@ -1,0 +1,16 @@
+{
+  "nombre": "Rush",
+  "categoria": "Plantas de exterior",
+  "precio": 3500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1136,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Fosforito",
+  "categoria": "Plantas de exterior",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/fosforito.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1126,
+  "visible": true
+}

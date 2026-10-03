@@ -1,0 +1,16 @@
+{
+  "nombre": "Monalisa",
+  "categoria": "Plantas de exterior",
+  "precio": 1200,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/monalisa.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 1146,
+  "visible": true
+}

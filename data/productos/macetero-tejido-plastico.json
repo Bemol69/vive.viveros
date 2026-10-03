@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero tejido plástico",
+  "categoria": "Maceteros",
+  "precio": 900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-tejido-plastico.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8101,
+  "visible": true
+}

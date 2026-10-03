@@ -1,0 +1,17 @@
+{
+  "nombre": "Dracena Marginata",
+  "categoria": "Otros",
+  "precio": 10000,
+  "precio_mayor": 7900,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 10103,
+  "visible": true
+}

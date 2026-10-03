@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero Liso N8",
+  "categoria": "Maceteros",
+  "precio": 150,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-liso-n8.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8146,
+  "visible": true
+}

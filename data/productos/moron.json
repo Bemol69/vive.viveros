@@ -1,0 +1,16 @@
+{
+  "nombre": "Moron",
+  "categoria": "Frutales",
+  "precio": 6000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/moron.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 2138,
+  "visible": true
+}

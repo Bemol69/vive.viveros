@@ -1,0 +1,16 @@
+{
+  "nombre": "Rosa Pie Alto",
+  "categoria": "Rosas",
+  "precio": 13500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/rosa-pie-alto.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 4107,
+  "visible": true
+}

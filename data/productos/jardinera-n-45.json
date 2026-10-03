@@ -1,0 +1,16 @@
+{
+  "nombre": "Jardinera N° 45",
+  "categoria": "Maceteros",
+  "precio": 2000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/jardinera-n-45.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8105,
+  "visible": true
+}

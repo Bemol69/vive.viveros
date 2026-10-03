@@ -1,0 +1,16 @@
+{
+  "nombre": "Jabon Potásico",
+  "categoria": "Insumos",
+  "precio": 2500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/jabon-potasico.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 9112,
+  "visible": true
+}

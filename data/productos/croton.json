@@ -1,0 +1,16 @@
+{
+  "nombre": "Croton",
+  "categoria": "Plantas de interior",
+  "precio": 7500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/croton.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 119,
+  "visible": true
+}

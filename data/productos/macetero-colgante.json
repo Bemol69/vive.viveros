@@ -1,0 +1,16 @@
+{
+  "nombre": "Macetero colgante",
+  "categoria": "Maceteros",
+  "precio": 4500,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/macetero-colgante.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 8119,
+  "visible": true
+}

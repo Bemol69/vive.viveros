@@ -1,9 +1,11 @@
 {
   "name": "vive-viveros",
   "private": true,
-  "description": "Landing Vive Viveros: sitio estático + panel /admin. El build optimiza las fotos con sharp.",
+  "description": "Sitio de Vive Viveros: portada + catálogo completo + pedido por WhatsApp + pago con Klap (preparado) + panel /admin.",
   "scripts": {
-    "build": "node scripts/build.mjs"
+    "build": "node scripts/build.mjs",
+    "servir": "node scripts/servir.mjs",
+    "test": "node --test \"test/*.test.js\" \"test/*.test.mjs\""
   },
   "engines": {
     "node": ">=18"

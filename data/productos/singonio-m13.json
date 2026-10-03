@@ -1,0 +1,16 @@
+{
+  "nombre": "Singonio M13",
+  "categoria": "Plantas de interior",
+  "precio": 4000,
+  "descripcion": "",
+  "luz": "",
+  "riego": "",
+  "etiqueta": "",
+  "portada": "/img/productos/singonio-m13.webp",
+  "fotos": [],
+  "destacado": false,
+  "inicio": false,
+  "agotado": false,
+  "orden": 168,
+  "visible": true
+}
